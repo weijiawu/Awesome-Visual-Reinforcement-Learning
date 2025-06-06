@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="assets/RL.png" alt="TAX" style="display: block; margin: 0 auto;" width="480px" />
+  <img src="assets/RL.png" alt="TAX" style="display: block; margin: 0 auto;" width="300px" />
 </p>
 
 #### :thinking: What is Visual Reinforcement Learning?
@@ -19,17 +19,32 @@ It aims to help researchers and practitioners navigate the fast-evolving Visual 
 ## 📚 Table of Contents <!-- omit in toc -->
 Libraries and tools
 
-- [Benchmarks environments and datasets for Visual RL](#benchmarks-environments-and-datasets-for-visual-rl)
-- [Visual Perception with RL](#visual-perception-for-rl)
-- [Visual Generation for RL](#visual-generation-for-rl)
+- [Benchmarks environments and datasets with Visual RL](#benchmarks-environments-and-datasets-with-visual-rl)
+- [Visual Perception with RL](#visual-perception-with-rl)
+- [Visual Generation with RL](#visual-generation-with-rl)
+- [Visual World Models with RL](#visual-world-models-with-rl)
 
 
-### Benchmarks environments and datasets for Visual RL
+
+### Benchmarks environments and datasets with Visual RL
 
 
 ### Visual Perception with RL
+**Definition**: Focus on learning effective visual representations—including segmentation, depth estimation, and object recognition—from pixel inputs to guide RL agent decision-making.
 
-### Visual Generation for RL
+### Visual World Models with RL
+**Definition**: Learn predictive models of environment dynamics from visual inputs to enable planning and long-horizon reasoning in RL.
+
+
++ [LS-Imagine: Open-World Reinforcement Learning over Long Short-Term Imagination](https://arxiv.org/abs/2410.03618) (2025, ICLR oral)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.03618)
+  [![Star](https://img.shields.io/github/stars/qiwang067/LS-Imagine.svg?style=social&label=Star)](https://github.com/qiwang067/LS-Imagine)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://qiwang067.github.io/ls-imagine)
+
+
+### Visual Generation with RL
+
+**Definition**: Study RL agents that generate or manipulate visual content to achieve goals or enable creative visual tasks.
 
 + [DanceGRPO: Unleashing GRPO on Visual Generation](https://arxiv.org/abs/2505.07818) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07818)
