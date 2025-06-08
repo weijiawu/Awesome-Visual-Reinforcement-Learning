@@ -33,6 +33,11 @@ Libraries and tools
 
 #### MLLM
 
++ [MM-Eureka: Exploring the Frontiers of Multimodal Reasoning with Rule-based Reinforcement Learning](https://arxiv.org/abs/2503.07365) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.07365)
+  [![Star](https://img.shields.io/github/stars/ModalMinds/MM-EUREKA.svg?style=social&label=Star)](https://github.com/ModalMinds/MM-EUREKA)
+
+
 + [Exploring the Effect of Reinforcement Learning on Video Understanding: Insights from SEED-Bench-R1](https://arxiv.org/pdf/2503.24376) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.24376)
   [![Star](https://img.shields.io/github/stars/TencentARC/SEED-Bench-R1.svg?style=social&label=Star)](https://github.com/TencentARC/SEED-Bench-R1)
@@ -43,6 +48,17 @@ Libraries and tools
 ### Visual Perception with RL
 **Definition**: Focus on learning effective visual representations—including segmentation, depth estimation, and object recognition—from pixel inputs to guide RL agent decision-making.
 
++ [Grounded Reinforcement Learning for Visual Reasoning](https://arxiv.org/abs/2505.23678) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23678)
+  [![Star](https://img.shields.io/github/stars/Gabesarch/grounded-rl.svg?style=social&label=Star)](https://github.com/Gabesarch/grounded-rl)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://visually-grounded-rl.github.io/)
+
+
++ [UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning](https://arxiv.org/abs/2505.14231) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14231)
+  [![Star](https://img.shields.io/github/stars/AMAP-ML/UniVG-R1.svg?style=social&label=Star)](https://github.com/AMAP-ML/UniVG-R1)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://amap-ml.github.io/UniVG-R1-page/)
+
 
 + [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/abs/2503.01785) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.01785)
@@ -50,11 +66,16 @@ Libraries and tools
 
 ### Multi-Modal Large Language Models with RL
 
++ [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/pdf/2505.04623) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.04623)
+  [![Star](https://img.shields.io/github/stars/HarryHsing/EchoInk.svg?style=social&label=Star)](https://github.com/HarryHsing/EchoInk/tree/main)
+  
+
 + [One RL to See Them All: Visual Triple Unified Reinforcement Learning](https://arxiv.org/abs/2505.18129) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.18129)
   [![Star](https://img.shields.io/github/stars/MiniMax-AI/One-RL-to-See-Them-All.svg?style=social&label=Star)](https://github.com/MiniMax-AI/One-RL-to-See-Them-All)
 
-  
+
 + [Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning](https://arxiv.org/pdf/2505.14677) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.14677)
   [![Star](https://img.shields.io/github/stars/lll6gg/UI-R1.svg?style=social&label=Star)](https://github.com/lll6gg/UI-R1)
@@ -92,6 +113,11 @@ Libraries and tools
 
 **Definition**: Study RL agents that generate or manipulate visual content to achieve goals or enable creative visual tasks.
 
++ [GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning](https://arxiv.org/abs/2505.17022) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17022)
+  [![Star](https://img.shields.io/github/stars/gogoduan/GoT-R1.svg?style=social&label=Star)](https://github.com/gogoduan/GoT-R1)
+
+
 + [Selftok: Discrete Visual Tokens of Autoregression, by Diffusion, and for Reasoning](https://arxiv.org/abs/2505.07538) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07538)
   [![Star](https://img.shields.io/github/stars/selftok-team/SelftokTokenizer.svg?style=social&label=Star)](https://github.com/selftok-team/SelftokTokenizer)
@@ -104,7 +130,19 @@ Libraries and tools
   [![Website](https://img.shields.io/badge/Website-9cf)](https://dancegrpo.github.io/)
 
 
++ [LfVoid: Can Pre-Trained Text-to-Image Models Generate Visual Goals for Reinforcement Learning?](https://arxiv.org/abs/2307.07837) (2023, Neurips)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2307.07837)
+  [![Star](https://img.shields.io/github/stars/gaojl19/LfVoid.svg?style=social&label=Star)](https://github.com/gaojl19/LfVoid)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://lfvoid-rl.github.io/)
+
+
+
 ### RL for Embodied AI/Robotics
+
++ [MoDem: Accelerating Visual Model-Based Reinforcement Learning with Demonstrations](https://arxiv.org/abs/2212.05698) (Dec. 2022, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2212.05698)
+  [![Star](https://img.shields.io/github/stars/facebookresearch/modem.svg?style=social&label=Star)](https://github.com/facebookresearch/modem)
+
 
 + [Selective Visual Representations Improve Convergence and Generalization for Embodied AI](https://openreview.net/pdf?id=kC5nZDU5zf) (2024, ICLR Spotlight)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://openreview.net/pdf?id=kC5nZDU5zf)
@@ -112,7 +150,6 @@ Libraries and tools
 
 + [Visual IRL for Human-Like Robotic Manipulation](https://arxiv.org/pdf/2412.11360) (Dec. 2024, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2412.11360)
-  [![Star](https://img.shields.io/github/stars/allenai/procthor-rl.svg?style=social&label=Star)](https://github.com/allenai/procthor-rl)
 
 
 ### Others
