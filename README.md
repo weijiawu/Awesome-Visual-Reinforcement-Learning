@@ -24,8 +24,10 @@ Libraries and tools
 - [Multi-Modal Large Language Models with RL](#multi-modal-large-language-models-with-rl)
 - [Visual Agents with RL](#visual-agents-with-rl)
 - [Visual Generation with RL](#visual-generation-with-rl)
+- [RL for Unified Model](#rl-for-unified-model)
 - [Visual World Models with RL](#visual-world-models-with-rl)
 - [RL for Embodied AI/Robotics](#rl-for-embodied-ai/robotics)
+- [RL for Medical Reasoning](#rl-for-medical-reasoning)
 - [Others](#others)
 
 
@@ -48,6 +50,11 @@ Libraries and tools
 ### Visual Perception with RL
 **Definition**: Focus on learning effective visual representations—including segmentation, depth estimation, and object recognition—from pixel inputs to guide RL agent decision-making.
 
++ [VisionReasoner: Unified Visual Perception and Reasoning via Reinforcement Learning](https://arxiv.org/abs/2505.12081) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12081)
+  [![Star](https://img.shields.io/github/stars/dvlab-research/VisionReasoner.svg?style=social&label=Star)](https://github.com/dvlab-research/VisionReasoner)
+
+
 + [Grounded Reinforcement Learning for Visual Reasoning](https://arxiv.org/abs/2505.23678) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23678)
   [![Star](https://img.shields.io/github/stars/Gabesarch/grounded-rl.svg?style=social&label=Star)](https://github.com/Gabesarch/grounded-rl)
@@ -69,7 +76,7 @@ Libraries and tools
 + [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/pdf/2505.04623) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.04623)
   [![Star](https://img.shields.io/github/stars/HarryHsing/EchoInk.svg?style=social&label=Star)](https://github.com/HarryHsing/EchoInk/tree/main)
-  
+
 
 + [One RL to See Them All: Visual Triple Unified Reinforcement Learning](https://arxiv.org/abs/2505.18129) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.18129)
@@ -82,6 +89,15 @@ Libraries and tools
   [![Website](https://img.shields.io/badge/Website-9cf)](https://www.maifoundations.com/blog/visionary-r1/)
 
 ### Visual Agents with RL
+
++ [Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning](https://arxiv.org/pdf/2505.12370) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.12370)
+  [![Star](https://img.shields.io/github/stars/YXB-NKU/SE-GUI.svg?style=social&label=Star)](https://github.com/YXB-NKU/SE-GUI)
+
+
++ [VisualToolAgent (VisTA): A Reinforcement Learning Framework for Visual Tool Selection](hhttps://arxiv.org/pdf/2505.20289) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20289)
+
 
 + [UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/pdf/2305.15260) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2305.15260)
@@ -113,15 +129,17 @@ Libraries and tools
 
 **Definition**: Study RL agents that generate or manipulate visual content to achieve goals or enable creative visual tasks.
 
++ [Enhancing Diffusion Models with Text-Encoder Reinforcement Learning](https://arxiv.org/pdf/2311.15657) (2024, ECCV)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2311.15657)
+
+
++ [Rendering-Aware Reinforcement Learning for Vector Graphics Generation](https://arxiv.org/pdf/2505.20793) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20793)
+
+
 + [GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning](https://arxiv.org/abs/2505.17022) (May. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17022)
   [![Star](https://img.shields.io/github/stars/gogoduan/GoT-R1.svg?style=social&label=Star)](https://github.com/gogoduan/GoT-R1)
-
-
-+ [Selftok: Discrete Visual Tokens of Autoregression, by Diffusion, and for Reasoning](https://arxiv.org/abs/2505.07538) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07538)
-  [![Star](https://img.shields.io/github/stars/selftok-team/SelftokTokenizer.svg?style=social&label=Star)](https://github.com/selftok-team/SelftokTokenizer)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://selftok-team.github.io/report/)
 
 
 + [DanceGRPO: Unleashing GRPO on Visual Generation](https://arxiv.org/abs/2505.07818) (Jun. 2025, arXiv)
@@ -136,6 +154,18 @@ Libraries and tools
   [![Website](https://img.shields.io/badge/Website-9cf)](https://lfvoid-rl.github.io/)
 
 
+### RL for Unified Model
+
++ [VARGPT-v1.1: Improve Visual Autoregressive Large Unified Model via Iterative Instruction Tuning and Reinforcement Learning](https://arxiv.org/pdf/2504.02949) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.02949)
+  [![Star](https://img.shields.io/github/stars/VARGPT-family/VARGPT-v1.1.svg?style=social&label=Star)](https://github.com/VARGPT-family/VARGPT-v1.1)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vargpt1-1.github.io/)
+
+
++ [Selftok: Discrete Visual Tokens of Autoregression, by Diffusion, and for Reasoning](https://arxiv.org/abs/2505.07538) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07538)
+  [![Star](https://img.shields.io/github/stars/selftok-team/SelftokTokenizer.svg?style=social&label=Star)](https://github.com/selftok-team/SelftokTokenizer)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://selftok-team.github.io/report/)
 
 ### RL for Embodied AI/Robotics
 
@@ -150,6 +180,14 @@ Libraries and tools
 
 + [Visual IRL for Human-Like Robotic Manipulation](https://arxiv.org/pdf/2412.11360) (Dec. 2024, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2412.11360)
+
+### RL for Medical Reasoning
+
+
++ [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](hhttps://arxiv.org/pdf/2502.19634) (Feb. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2502.19634)
+  [[![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/JZPeterPan/MedVLM-R1)
+
 
 
 ### Others
