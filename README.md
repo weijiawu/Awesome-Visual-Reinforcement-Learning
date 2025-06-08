@@ -95,7 +95,7 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/YXB-NKU/SE-GUI.svg?style=social&label=Star)](https://github.com/YXB-NKU/SE-GUI)
 
 
-+ [VisualToolAgent (VisTA): A Reinforcement Learning Framework for Visual Tool Selection](hhttps://arxiv.org/pdf/2505.20289) (Mar. 2025, arXiv)
++ [VisualToolAgent (VisTA): A Reinforcement Learning Framework for Visual Tool Selection](https://arxiv.org/pdf/2505.20289) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20289)
 
 
