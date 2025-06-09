@@ -44,11 +44,32 @@ Libraries and tools
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.24376)
   [![Star](https://img.shields.io/github/stars/TencentARC/SEED-Bench-R1.svg?style=social&label=Star)](https://github.com/TencentARC/SEED-Bench-R1)
 
+### Multi-Agent
 
++ [FightLadder: A Benchmark for Competitive Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2406.02081) (2024, ICML)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.02081)
+  [![Star](https://img.shields.io/github/stars/wenzhe-li/FightLadder.svg?style=social&label=Star)](https://github.com/wenzhe-li/FightLadder)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://sites.google.com/view/fightladder/home)
 
 
 ### Visual Perception with RL
 **Definition**: Focus on learning effective visual representations—including segmentation, depth estimation, and object recognition—from pixel inputs to guide RL agent decision-making.
+
+
++ [VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank](https://arxiv.org/pdf/2505.14460) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.14460)
+  [![Star](https://img.shields.io/github/stars/TianheWu/VisualQuality-R1.svg?style=social&label=Star)](https://github.com/TianheWu/VisualQuality-R1)
+
+
++ [Integrating Saliency Ranking and Reinforcement Learning for Enhanced Object Detection](https://arxiv.org/abs/2408.06803) (Aug. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.06803)
+  [![Star](https://img.shields.io/github/stars/mbar0075/SaRLVision.svg?style=social&label=Star)](https://github.com/mbar0075/SaRLVision)
+
+
++ [Perception-R1: Pioneering Perception Policy with Reinforcement Learning](https://arxiv.org/pdf/2504.07954) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.07954)
+  [![Star](https://img.shields.io/github/stars/linkangheng/PR1.svg?style=social&label=Star)](https://github.com/linkangheng/PR1)
+
 
 + [VisionReasoner: Unified Visual Perception and Reasoning via Reinforcement Learning](https://arxiv.org/abs/2505.12081) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12081)
@@ -72,6 +93,55 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT.svg?style=social&label=Star)](https://github.com/Liuziyu77/Visual-RFT)
 
 ### Multi-Modal Large Language Models with RL
+
++ [VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model](https://arxiv.org/pdf/2504.07615) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.07615)
+  [![Star](https://img.shields.io/github/stars/om-ai-lab/VLM-R1.svg?style=social&label=Star)](https://github.com/om-ai-lab/VLM-R1)
+
+
+
+
++ [VisRL: Intention-Driven Visual Perception via Reinforced Reasoning](https://arxiv.org/pdf/2503.07523) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.07523)
+  [![Star](https://img.shields.io/github/stars/zhangquanchen/VisRL.svg?style=social&label=Star)](https://github.com/zhangquanchen/VisRL)
+
+
+
++ [Observe-R1: Unlocking Reasoning Abilities of MLLMs with Dynamic Progressive Reinforcement Learning](https://arxiv.org/abs/2505.12432) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12432)
+  [![Star](https://img.shields.io/github/stars/zrguo/Observe-R1.svg?style=social&label=Star)](https://github.com/zrguo/Observe-R1)
+
+
++ [VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning](https://arxiv.org/pdf/2505.22019) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.22019)
+  [![Star](https://img.shields.io/github/stars/Alibaba-NLP/VRAG.svg?style=social&label=Star)](https://github.com/Alibaba-NLP/VRAG)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://modomodo-rl.github.io/)
+
+
+
++ [MoDoMoDo: Multi-Domain Data Mixtures for Multimodal LLM Reinforcement Learning](https://arxiv.org/abs/2505.24871) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.24871)
+  [![Star](https://img.shields.io/github/stars/lynl7130/MoDoMoDo.svg?style=social&label=Star)](https://github.com/lynl7130/MoDoMoDo)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://modomodo-rl.github.io/)
+
+
++ [Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning](https://arxiv.org/abs/2503.20752) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.20752)
+  [![Star](https://img.shields.io/github/stars/tanhuajie/Reason-RFT.svg?style=social&label=Star)](https://github.com/tanhuajie/Reason-RFT)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tanhuajie.github.io/ReasonRFT/)
+
+
++ [Pixel Reasoner: Incentivizing Pixel-Space Reasoning with Curiosity-Driven Reinforcement Learning](https://arxiv.org/abs/2505.15966) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.15966)
+  [![Star](https://img.shields.io/github/stars/TIGER-AI-Lab/Pixel-Reasoner.svg?style=social&label=Star)](https://github.com/TIGER-AI-Lab/Pixel-Reasoner)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tiger-ai-lab.github.io/Pixel-Reasoner)
+
+
++ [Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning](https://arxiv.org/pdf/2504.16656) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.16656)
+  [![Star](https://img.shields.io/github/stars/SkyworkAI/Skywork-R1V.svg?style=social&label=Star)](https://github.com/SkyworkAI/Skywork-R1V)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/Skywork/Skywork-R1V2-38B)
+
 
 + [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/pdf/2505.04623) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.04623)
@@ -129,6 +199,17 @@ Libraries and tools
 
 **Definition**: Study RL agents that generate or manipulate visual content to achieve goals or enable creative visual tasks.
 
+
++ [RePrompt: Reasoning-Augmented Reprompting for Text-to-Image Generation via Reinforcement Learning](https://arxiv.org/abs/2505.17540) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17540)
+  [![Star](https://img.shields.io/github/stars/microsoft/DKI_LLM.svg?style=social&label=Star)](https://github.com/microsoft/DKI_LLM)
+
+
++ [Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning](https://arxiv.org/abs/2407.06642) (2024, ECCV)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.06642)
+  [![Star](https://img.shields.io/github/stars/wfanyue/DPG-T2I-Personalization.svg?style=social&label=Star)](https://github.com/wfanyue/DPG-T2I-Personalization)
+
+
 + [Enhancing Diffusion Models with Text-Encoder Reinforcement Learning](https://arxiv.org/pdf/2311.15657) (2024, ECCV)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2311.15657)
 
@@ -167,12 +248,15 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/selftok-team/SelftokTokenizer.svg?style=social&label=Star)](https://github.com/selftok-team/SelftokTokenizer)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://selftok-team.github.io/report/)
 
+
+
 ### RL for Embodied AI/Robotics
+
+
 
 + [MoDem: Accelerating Visual Model-Based Reinforcement Learning with Demonstrations](https://arxiv.org/abs/2212.05698) (Dec. 2022, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2212.05698)
   [![Star](https://img.shields.io/github/stars/facebookresearch/modem.svg?style=social&label=Star)](https://github.com/facebookresearch/modem)
-
 
 + [Selective Visual Representations Improve Convergence and Generalization for Embodied AI](https://openreview.net/pdf?id=kC5nZDU5zf) (2024, ICLR Spotlight)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://openreview.net/pdf?id=kC5nZDU5zf)
@@ -181,12 +265,18 @@ Libraries and tools
 + [Visual IRL for Human-Like Robotic Manipulation](https://arxiv.org/pdf/2412.11360) (Dec. 2024, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2412.11360)
 
++ [Learning Synergies between Pushing and Grasping with Self-supervised Deep Reinforcement Learning](https://arxiv.org/abs/1803.09956) (2018, IROS)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1803.09956)
+  [![Star](https://img.shields.io/github/stars/andyzeng/visual-pushing-grasping.svg?style=social&label=Star)](https://github.com/andyzeng/visual-pushing-grasping)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vpg.cs.princeton.edu/)
+
+
 ### RL for Medical Reasoning
 
 
-+ [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](hhttps://arxiv.org/pdf/2502.19634) (Feb. 2025, arXiv)
++ [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/pdf/2502.19634) (Feb. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2502.19634)
-  [[![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/JZPeterPan/MedVLM-R1)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/JZPeterPan/MedVLM-R1)
 
 
 
