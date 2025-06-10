@@ -56,6 +56,12 @@ Libraries and tools
 **Definition**: Focus on learning effective visual representations—including segmentation, depth estimation, and object recognition—from pixel inputs to guide RL agent decision-making.
 
 
++ [VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning](https://arxiv.org/pdf/2505.22019) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.22019)
+  [![Star](https://img.shields.io/github/stars/Alibaba-NLP/VRAG.svg?style=social&label=Star)](https://github.com/Alibaba-NLP/VRAG)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://modomodo-rl.github.io/)
+
+
 + [VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank](https://arxiv.org/pdf/2505.14460) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.14460)
   [![Star](https://img.shields.io/github/stars/TianheWu/VisualQuality-R1.svg?style=social&label=Star)](https://github.com/TianheWu/VisualQuality-R1)
@@ -94,11 +100,18 @@ Libraries and tools
 
 ### Multi-Modal Large Language Models with RL
 
++ [Self-Rewarding Large Vision-Language Models for Optimizing Prompts in Text-to-Image Generation](https://arxiv.org/pdf/2505.16763) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.16763)
+
+
++ [Vision-R1: Evolving Human-Free Alignment in Large Vision-Language Models via Vision-Guided Reinforcement Learning](hhttps://arxiv.org/pdf/2503.18013) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.18013)
+  [![Star](https://img.shields.io/github/stars/jefferyZhan/Griffon.svg?style=social&label=Star)](https://github.com/jefferyZhan/Griffon)
+
+
 + [VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model](https://arxiv.org/pdf/2504.07615) (May. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.07615)
   [![Star](https://img.shields.io/github/stars/om-ai-lab/VLM-R1.svg?style=social&label=Star)](https://github.com/om-ai-lab/VLM-R1)
-
-
 
 
 + [VisRL: Intention-Driven Visual Perception via Reinforced Reasoning](https://arxiv.org/pdf/2503.07523) (Mar. 2025, arXiv)
@@ -199,6 +212,11 @@ Libraries and tools
 
 **Definition**: Study RL agents that generate or manipulate visual content to achieve goals or enable creative visual tasks.
 
++ [PrefPaint: Aligning Image Inpainting Diffusion Model with Human Preference](https://arxiv.org/abs/2410.21966) (2024, Neurips)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.21966)
+  [![Star](https://img.shields.io/github/stars/Kenkenzaii/PrefPaint.svg?style=social&label=Star)](https://github.com/Kenkenzaii/PrefPaint)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://prefpaint.github.io/)
+
 
 + [RePrompt: Reasoning-Augmented Reprompting for Text-to-Image Generation via Reinforcement Learning](https://arxiv.org/abs/2505.17540) (May. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17540)
@@ -237,6 +255,19 @@ Libraries and tools
 
 ### RL for Unified Model
 
++ [Unified Multimodal Chain-of-Thought Reward Model through Reinforcement Fine-Tuning](https://arxiv.org/abs/2505.03318) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.03318)
+  [![Star](https://img.shields.io/github/stars/CodeGoat24/UnifiedReward.svg?style=social&label=Star)](https://github.com/CodeGoat24/UnifiedReward)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/UnifiedReward/think)
+
+
+  
++ [MMaDA: Multimodal Large Diffusion Language Models](https://arxiv.org/abs/2505.15809) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.15809)
+  [![Star](https://img.shields.io/github/stars/Gen-Verse/MMaDA.svg?style=social&label=Star)](https://github.com/Gen-Verse/MMaDA)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/spaces/Gen-Verse/MMaDA)
+
+
 + [VARGPT-v1.1: Improve Visual Autoregressive Large Unified Model via Iterative Instruction Tuning and Reinforcement Learning](https://arxiv.org/pdf/2504.02949) (Apr. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.02949)
   [![Star](https://img.shields.io/github/stars/VARGPT-family/VARGPT-v1.1.svg?style=social&label=Star)](https://github.com/VARGPT-family/VARGPT-v1.1)
@@ -252,7 +283,19 @@ Libraries and tools
 
 ### RL for Embodied AI/Robotics
 
++ [Improving Vision-Language-Action Model with Online Reinforcement Learning](https://arxiv.org/pdf/2501.16664) (2025, ICRA)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2501.16664)
 
+
++ [Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning](https://arxiv.org/abs/2410.21845) (Oct. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.21845)
+  [![Star](https://img.shields.io/github/stars/rail-berkeley/hil-serl.svg?style=social&label=Star)](https://github.com/rail-berkeley/hil-serl)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://hil-serl.github.io/)
+
+
++ [Integrating Reinforcement Learning with Foundation Models for Autonomous Robotics: Methods and Perspectives](https://arxiv.org/abs/2410.16411) (Oct. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.16411)
+  [![Star](https://img.shields.io/github/stars/clmoro/Robotics-RL-FMs-Integration.svg?style=social&label=Star)](https://github.com/clmoro/Robotics-RL-FMs-Integration)
 
 + [MoDem: Accelerating Visual Model-Based Reinforcement Learning with Demonstrations](https://arxiv.org/abs/2212.05698) (Dec. 2022, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2212.05698)
