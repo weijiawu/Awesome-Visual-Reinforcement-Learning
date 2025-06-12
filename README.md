@@ -306,7 +306,7 @@ Libraries and tools
 
 + [OctoNav: Towards Generalist Embodied Navigation](https://arxiv.org/pdf/2506.09839) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.09839)
-  [![Star](https://img.shields.io/github/stars/rail-berkeley/hil-serl.svg?style=social&label=Star)](https://github.com/buaa-colalab/OctoNav-R1)
+  [![Star](https://img.shields.io/github/stars/buaa-colalab/OctoNav-R1.svg?style=social&label=Star)](https://github.com/buaa-colalab/OctoNav-R1)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://buaa-colalab.github.io/OctoNav/)
 
 + [Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics](https://arxiv.org/abs/2506.00070) (May. 2025, arXiv)
