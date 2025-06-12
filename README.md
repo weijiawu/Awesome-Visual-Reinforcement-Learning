@@ -304,21 +304,28 @@ Libraries and tools
 
 ### RL for Embodied AI/Robotics
 
++ [OctoNav: Towards Generalist Embodied Navigation](https://arxiv.org/pdf/2506.09839) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.09839)
+  [![Star](https://img.shields.io/github/stars/rail-berkeley/hil-serl.svg?style=social&label=Star)](https://github.com/buaa-colalab/OctoNav-R1)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://buaa-colalab.github.io/OctoNav/)
 
 + [Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics](https://arxiv.org/abs/2506.00070) (May. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.00070)
 
-
++ [Embodied-R: Collaborative Framework for Activating Embodied Spatial Reasoning in Foundation Models via Reinforcement Learning](https://arxiv.org/pdf/2504.12680) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.12680)
 
 + [Improving Vision-Language-Action Model with Online Reinforcement Learning](https://arxiv.org/pdf/2501.16664) (2025, ICRA)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2501.16664)
 
++ [RLDG: Robotic Generalist Policy Distillation via Reinforcement Learning](https://arxiv.org/pdf/2412.09858) (Dec. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2412.09858)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://generalist-distillation.github.io/)
 
 + [Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning](https://arxiv.org/abs/2410.21845) (Oct. 2024, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.21845)
   [![Star](https://img.shields.io/github/stars/rail-berkeley/hil-serl.svg?style=social&label=Star)](https://github.com/rail-berkeley/hil-serl)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://hil-serl.github.io/)
-
 
 + [Integrating Reinforcement Learning with Foundation Models for Autonomous Robotics: Methods and Perspectives](https://arxiv.org/abs/2410.16411) (Oct. 2024, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.16411)
