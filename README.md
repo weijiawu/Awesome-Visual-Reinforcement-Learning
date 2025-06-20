@@ -28,6 +28,7 @@ Libraries and tools
 - [Visual World Models with RL](#visual-world-models-with-rl)
 - [RL for Embodied AI/Robotics](#rl-for-embodied-ai/robotics)
 - [RL for Medical Reasoning](#rl-for-medical-reasoning)
+- [Audio Question Answering with RL](#audio-question-answering-with-rl)
 - [Others](#others)
 
 
@@ -54,6 +55,10 @@ Libraries and tools
 
 ### Visual Perception with RL
 **Definition**: Focus on learning effective visual representations—including segmentation, depth estimation, and object recognition—from pixel inputs to guide RL agent decision-making.
+
++ [VideoChat-R1: Enhancing Spatio-Temporal Perception via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2504.06958) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.06958)
+
 
 + [Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration](https://arxiv.org/pdf/2505.20256) (May. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20256)
@@ -104,6 +109,29 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT.svg?style=social&label=Star)](https://github.com/Liuziyu77/Visual-RFT)
 
 ### Multi-Modal Large Language Models with RL
+
++ [DeepEyes: Incentivizing “Thinking with Images” via Reinforcement Learning](https://arxiv.org/abs/2505.14362) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14362)
+  [![Star](https://img.shields.io/github/stars/SUSTechBruce/Visual-Agent/DeepEyes.svg?style=social&label=Star)](https://github.com/Visual-Agent/DeepEyes)
+
++ [STAR-R1: Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](https://arxiv.org/pdf/2505.15804) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15804)
+  [![Star](https://img.shields.io/github/stars/SUSTechBruce/zongzhao23/STAR-R1.svg?style=social&label=Star)](https://github.com/zongzhao23/STAR-R1)
+
+
++ [GRIT: Teaching MLLMs to Think with Images](https://arxiv.org/pdf/2505.15879) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15879)
+
+
++ [Ground-R1: Incentivizing Grounded Visual Reasoning via Reinforcement Learning](https://arxiv.org/pdf/2505.20272) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20272)
+
+
++ [Reinforcement Learning Tuning for VideoLLMs: Reward Design and Data Efficiency](https://arxiv.org/abs/2506.01908) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01908)
+  [![Star](https://img.shields.io/github/stars/SUSTechBruce/appletea233/Temporal-R1.svg?style=social&label=Star)](https://github.com/appletea233/Temporal-R1)
+
+
 
 + [VAU-R1: Advancing Video Anomaly Understanding via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2505.23504) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.23504)
@@ -211,6 +239,11 @@ Libraries and tools
 
 ### Visual Agents with RL
 
++ [VTool-R1: VLMs Learn to Think with Images via Reinforcement Learning on Multimodal Tool Use](https://arxiv.org/abs/2505.19255) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19255)
+  [![Star](https://img.shields.io/github/stars/VTool-R1/VTool-R1.svg?style=social&label=Star)](https://github.com/VTool-R1/VTool-R1)
+
+
 + [VIKI‑R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning](https://arxiv.org/abs/2506.09049) (June. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.09049)
   [![Star](https://img.shields.io/github/stars/MARS-EAI/VIKI-R.svg?style=social&label=Star)](https://github.com/MARS-EAI/VIKI-R)
@@ -255,6 +288,34 @@ Libraries and tools
 ### Visual Generation with RL
 
 **Definition**: Study RL agents that generate or manipulate visual content to achieve goals or enable creative visual tasks.
+
++ [Fine-Tuning Next-Scale Visual Autoregressive Models with Group Relative Policy Optimization](https://arxiv.org/abs/2505.23331) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23331)
+
+
++ [ReasonGen-R1: Cot for Autoregressive Image generation models through SFT and RL](https://arxiv.org/abs/2505.24875) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.24875)
+  [![Star](https://img.shields.io/github/stars/Franklin-Zhang0/ReasonGen-R1.svg?style=social&label=Star)](https://github.com/Franklin-Zhang0/ReasonGen-R1)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://reasongen-r1.github.io/)
+
+
++ [FocusDiff: Advancing Fine-Grained Text-Image Alignment for Autoregressive Visual Generation through RL](https://arxiv.org/pdf/2506.05501) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.05501)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://focusdiff.github.io/)
+
+
++ [DPOK: Reinforcement Learning for Fine-tuning Text-to-Image Diffusion Models](https://arxiv.org/abs/2305.16381) (May. 2023, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.16381)
+
+
++ [A Simple and Effective Reinforcement Learning Method for Text-to-Image Diffusion Fine-tuning](https://arxiv.org/abs/2503.00897) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.00897)
+
++ [Training Diffusion Models with Reinforcement Learning](https://arxiv.org/abs/2305.13301) (May. 2023, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.13301)
+  [![Star](https://img.shields.io/github/stars/jannerm/ddpo.svg?style=social&label=Star)](https://github.com/jannerm/ddpo)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://rl-diffusion.github.io/)
+
 
 + [PrefPaint: Aligning Image Inpainting Diffusion Model with Human Preference](https://arxiv.org/abs/2410.21966) (2024, Neurips)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.21966)
@@ -378,7 +439,12 @@ Libraries and tools
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2502.19634)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/JZPeterPan/MedVLM-R1)
 
+### Audio Question Answering with RL
 
++ [Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering](https://arxiv.org/pdf/2503.11197) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.11197)
+  [![Star](https://img.shields.io/github/stars/xiaomi-research/r1-aqa.svg?style=social&label=Star)](https://github.com/xiaomi-research/r1-aqa)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/mispeech/r1-aqa)
 
 ### Others
 
@@ -387,6 +453,8 @@ Libraries and tools
 + [Deep Reinforcement Learning Course from Hugging Face](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) (Hugging Face)
 
 + [Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models](https://arxiv.org/pdf/2504.21277) (May. 2025, arXiv)
+
++ [Reinforcement Learning for Generative AI: A Survey](https://arxiv.org/abs/2308.14328) (Aug. 2023, arXiv)
 
 + [The 37 Implementation Details of Proximal Policy Optimization](https://iclr-blog-track.github.io/2022/03/25/ppo-implementation-details/) (Mar. 2022, ICLR Blog)
 
