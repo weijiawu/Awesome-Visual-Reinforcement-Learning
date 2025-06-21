@@ -112,11 +112,11 @@ Libraries and tools
 
 + [DeepEyes: Incentivizing “Thinking with Images” via Reinforcement Learning](https://arxiv.org/abs/2505.14362) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14362)
-  [![Star](https://img.shields.io/github/stars/SUSTechBruce/Visual-Agent/DeepEyes.svg?style=social&label=Star)](https://github.com/Visual-Agent/DeepEyes)
+  [![Star](https://img.shields.io/github/stars/Visual-Agent/DeepEyes.svg?style=social&label=Star)](https://github.com/Visual-Agent/DeepEyes)
 
 + [STAR-R1: Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](https://arxiv.org/pdf/2505.15804) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15804)
-  [![Star](https://img.shields.io/github/stars/SUSTechBruce/zongzhao23/STAR-R1.svg?style=social&label=Star)](https://github.com/zongzhao23/STAR-R1)
+  [![Star](https://img.shields.io/github/stars/zongzhao23/STAR-R1.svg?style=social&label=Star)](https://github.com/zongzhao23/STAR-R1)
 
 
 + [GRIT: Teaching MLLMs to Think with Images](https://arxiv.org/pdf/2505.15879) (Mar. 2025, arXiv)
@@ -129,30 +129,30 @@ Libraries and tools
 
 + [Reinforcement Learning Tuning for VideoLLMs: Reward Design and Data Efficiency](https://arxiv.org/abs/2506.01908) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01908)
-  [![Star](https://img.shields.io/github/stars/SUSTechBruce/appletea233/Temporal-R1.svg?style=social&label=Star)](https://github.com/appletea233/Temporal-R1)
+  [![Star](https://img.shields.io/github/stars/appletea233/Temporal-R1.svg?style=social&label=Star)](https://github.com/appletea233/Temporal-R1)
 
 
 
 + [VAU-R1: Advancing Video Anomaly Understanding via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2505.23504) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.23504)
-  [![Star](https://img.shields.io/github/stars/SUSTechBruce/GVCLab/VAU-R1.svg?style=social&label=Star)](https://github.com/GVCLab/VAU-R1)
+  [![Star](https://img.shields.io/github/stars/GVCLab/VAU-R1.svg?style=social&label=Star)](https://github.com/GVCLab/VAU-R1)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://github.com/GVCLab/VAU-R1?tab=readme-ov-file)
 
 
 + [SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning](https://arxiv.org/abs/2506.01713) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01713)
-  [![Star](https://img.shields.io/github/stars/SUSTechBruce/SUSTechBruce/SRPO_MLLMs.svg?style=social&label=Star)](https://github.com/SUSTechBruce/SRPO_MLLMs)
+  [![Star](https://img.shields.io/github/stars/SUSTechBruce/SRPO_MLLMs.svg?style=social&label=Star)](https://github.com/SUSTechBruce/SRPO_MLLMs)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://srpo.pages.dev/#abstraction)
 
 
 + [DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO](https://arxiv.org/pdf/2506.07464) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.07464)
-  [![Star](https://img.shields.io/github/stars/SUSTechBruce/mlvlab/DeepVideoR1.svg?style=social&label=Star)](https://github.com/mlvlab/DeepVideoR1)
+  [![Star](https://img.shields.io/github/stars/mlvlab/DeepVideoR1.svg?style=social&label=Star)](https://github.com/mlvlab/DeepVideoR1)
 
 
 + [ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs](https://arxiv.org/pdf/2506.10128) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.10128)
-  [![Star](https://img.shields.io/github/stars/SUSTechBruce/si0wang/ViCrit.svg?style=social&label=Star)](https://github.com/si0wang/ViCrit)
+  [![Star](https://img.shields.io/github/stars/si0wang/ViCrit.svg?style=social&label=Star)](https://github.com/si0wang/ViCrit)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/datasets/zyang39/ViCrit-Train)
 
 
