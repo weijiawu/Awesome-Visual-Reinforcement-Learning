@@ -114,6 +114,12 @@ Libraries and tools
 
 #### Spatial Reasoning \& Verification
 
+
++ [STAR-R1: Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](https://arxiv.org/pdf/2505.15804) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15804)
+  [![Star](https://img.shields.io/github/stars/zongzhao23/STAR-R1.svg?style=social&label=Star)](https://github.com/zongzhao23/STAR-R1)
+
+
 + [DIP-R1: Deep Inspection and Perception with RL Looking Through and Understanding Complex Scenes](https://arxiv.org/abs/2505.23179) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23179)
 
@@ -127,14 +133,15 @@ Libraries and tools
 + [Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing](https://arxiv.org/abs/2506.09965) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.09965)
 
++ [Ground-R1: Incentivizing Grounded Visual Reasoning via Reinforcement Learning](https://arxiv.org/pdf/2505.20272) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20272)
+
+
+
 #### Video \& Temporal Understanding
 
 + [VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progressive Visual Reinforcement Learning](https://arxiv.org/abs/2506.18564) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.18564)
-
-+ [GRPO-CARE: Consistency-Aware Reinforcement Learning for Multimodal Reasoning](https://arxiv.org/pdf/2506.16141) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.16141)
-  [![Star](https://img.shields.io/github/stars/TencentARC/GRPO-CARE.svg?style=social&label=Star)](https://github.com/TencentARC/GRPO-CARE)
 
 + [Reinforcing Video Reasoning with Focused Thinking](https://arxiv.org/abs/2505.24718) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.24718)
@@ -151,17 +158,22 @@ Libraries and tools
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14362)
   [![Star](https://img.shields.io/github/stars/Visual-Agent/DeepEyes.svg?style=social&label=Star)](https://github.com/Visual-Agent/DeepEyes)
 
-+ [STAR-R1: Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](https://arxiv.org/pdf/2505.15804) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15804)
-  [![Star](https://img.shields.io/github/stars/zongzhao23/STAR-R1.svg?style=social&label=Star)](https://github.com/zongzhao23/STAR-R1)
+
+#### Architectural \& Reasoning Mechanisms
+
+
++ [GRPO-CARE: Consistency-Aware Reinforcement Learning for Multimodal Reasoning](https://arxiv.org/pdf/2506.16141) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.16141)
+  [![Star](https://img.shields.io/github/stars/TencentARC/GRPO-CARE.svg?style=social&label=Star)](https://github.com/TencentARC/GRPO-CARE)
 
 
 + [GRIT: Teaching MLLMs to Think with Images](https://arxiv.org/pdf/2505.15879) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15879)
 
 
-+ [Ground-R1: Incentivizing Grounded Visual Reasoning via Reinforcement Learning](https://arxiv.org/pdf/2505.20272) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20272)
+
+
+
 
 
 + [VAU-R1: Advancing Video Anomaly Understanding via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2505.23504) (Jun. 2025, arXiv)
