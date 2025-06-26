@@ -56,9 +56,11 @@ Libraries and tools
 ### Visual Perception with RL
 **Definition**: Focus on learning effective visual representations—including segmentation, depth estimation, and object recognition—from pixel inputs to guide RL agent decision-making.
 
++ [Optimization-Free Patch Attack on Stereo Depth Estimation](https://arxiv.org/abs/2506.17632) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.17632)
+
 + [VideoChat-R1: Enhancing Spatio-Temporal Perception via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2504.06958) (Apr. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.06958)
-
 
 + [Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration](https://arxiv.org/pdf/2505.20256) (May. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20256)
@@ -110,10 +112,40 @@ Libraries and tools
 
 ### Multi-Modal Large Language Models with RL
 
+#### Spatial Reasoning \& Verification
+
++ [DIP-R1: Deep Inspection and Perception with RL Looking Through and Understanding Complex Scenes](https://arxiv.org/abs/2505.23179) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23179)
+
+
++ [SVQA-R1: Reinforcing Spatial Reasoning in MLLMs via View-Consistent Reward Optimization](https://arxiv.org/abs/2506.01371) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01371)
+
++ [Advancing Multimodal Reasoning Capabilities of Multimodal Large Language Models via Visual Perception Reward](https://arxiv.org/abs/2506.07218) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07218)
+
++ [Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing](https://arxiv.org/abs/2506.09965) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.09965)
+
+#### Video \& Temporal Understanding
+
++ [VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progressive Visual Reinforcement Learning](https://arxiv.org/abs/2506.18564) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.18564)
+
 + [GRPO-CARE: Consistency-Aware Reinforcement Learning for Multimodal Reasoning](https://arxiv.org/pdf/2506.16141) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.16141)
   [![Star](https://img.shields.io/github/stars/TencentARC/GRPO-CARE.svg?style=social&label=Star)](https://github.com/TencentARC/GRPO-CARE)
 
++ [Reinforcing Video Reasoning with Focused Thinking](https://arxiv.org/abs/2505.24718) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.24718)
+  [![Star](https://img.shields.io/github/stars/longmalongma/TW-GRPO.svg?style=social&label=Star)](https://github.com/longmalongma/TW-GRPO)
+
++ [Reinforcement Learning Tuning for VideoLLMs: Reward Design and Data Efficiency](https://arxiv.org/abs/2506.01908) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01908)
+  [![Star](https://img.shields.io/github/stars/appletea233/Temporal-R1.svg?style=social&label=Star)](https://github.com/appletea233/Temporal-R1)
+
+
+#### Goal-Driven \& Personalized Learning
 
 + [DeepEyes: Incentivizing “Thinking with Images” via Reinforcement Learning](https://arxiv.org/abs/2505.14362) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14362)
@@ -130,12 +162,6 @@ Libraries and tools
 
 + [Ground-R1: Incentivizing Grounded Visual Reasoning via Reinforcement Learning](https://arxiv.org/pdf/2505.20272) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20272)
-
-
-+ [Reinforcement Learning Tuning for VideoLLMs: Reward Design and Data Efficiency](https://arxiv.org/abs/2506.01908) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01908)
-  [![Star](https://img.shields.io/github/stars/appletea233/Temporal-R1.svg?style=social&label=Star)](https://github.com/appletea233/Temporal-R1)
-
 
 
 + [VAU-R1: Advancing Video Anomaly Understanding via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2505.23504) (Jun. 2025, arXiv)
@@ -459,17 +485,32 @@ Libraries and tools
 
 ### Others
 
+#### Representation Learning
+
++ [Visual Pre-Training on Unlabeled Images using Reinforcement Learning](https://arxiv.org/abs/2506.11967) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.11967)
+
++ [DINO-R1: Incentivizing Reasoning Capability in Vision Foundation Models](https://arxiv.org/pdf/2505.24025) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.24025)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://christinepan881.github.io/DINO-R1/)
+
+#### Blog
+
 + [Reinforcement Learning Guide](https://docs.unsloth.ai/basics/reinforcement-learning-guide) (2025, Blog)
 
 + [Can RL From Pixels be as Efficient as RL From State?](https://bair.berkeley.edu/blog/2020/07/19/curl-rad/) (Jul. 2025, Blog)
 
++ [The 37 Implementation Details of Proximal Policy Optimization](https://iclr-blog-track.github.io/2022/03/25/ppo-implementation-details/) (Mar. 2022, ICLR Blog)
+
+#### Learning Course
+
 + [Deep Reinforcement Learning Course from Hugging Face](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) (Hugging Face)
+
+#### Survey
 
 + [Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models](https://arxiv.org/pdf/2504.21277) (May. 2025, arXiv)
 
 + [Reinforcement Learning for Generative AI: A Survey](https://arxiv.org/abs/2308.14328) (Aug. 2023, arXiv)
-
-+ [The 37 Implementation Details of Proximal Policy Optimization](https://iclr-blog-track.github.io/2022/03/25/ppo-implementation-details/) (Mar. 2022, ICLR Blog)
 
 #### :high_brightness: This project is still on-going, pull requests are welcomed!!
 If you have any suggestions (missing papers, new papers, or typos), please feel free to edit and submit a pull request. Even just suggesting paper titles is a great contribution — you can also open an issue or contact us via email.
