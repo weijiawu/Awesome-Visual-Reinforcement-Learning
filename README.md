@@ -504,6 +504,10 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/MARS-EAI/VIKI-R.svg?style=social&label=Star)](https://github.com/MARS-EAI/VIKI-R)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://faceong.github.io/VIKI-R/)
 
++ [VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2506.17221) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.17221)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vlnr1.github.io/)
+
 + [OctoNav: Towards Generalist Embodied Navigation](https://arxiv.org/pdf/2506.09839) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.09839)
   [![Star](https://img.shields.io/github/stars/buaa-colalab/OctoNav-R1.svg?style=social&label=Star)](https://github.com/buaa-colalab/OctoNav-R1)
