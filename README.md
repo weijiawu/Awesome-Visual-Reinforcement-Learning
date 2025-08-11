@@ -16,19 +16,27 @@ Awesome-Visual-Reinforcement-Learning is a curated list of papers, libraries, an
 It aims to help researchers and practitioners navigate the fast-evolving Visual RL landscape — from perception and representation learning to policy learning and real-world applications.
 
 
+
+
+<p align="center">
+  <img src="assets/timeline.png" alt="TAX" style="display: block; margin: 0 auto;" width="500px" />
+</p>
+
+
+
 ## 📚 Table of Contents <!-- omit in toc -->
 Libraries and tools
 
 - [Benchmarks environments and datasets with Visual RL](#benchmarks-environments-and-datasets-with-visual-rl)
 - [Visual Perception with RL](#visual-perception-with-rl)
 - [Multi-Modal Large Language Models with RL](#multi-modal-large-language-models-with-rl)
-- [Visual Agents with RL](#visual-agents-with-rl)
+<!-- - [Visual Generation with RL](#visual-agents-with-rl) -->
 - [Visual Generation with RL](#visual-generation-with-rl)
 - [RL for Unified Model](#rl-for-unified-model)
-- [Visual World Models with RL](#visual-world-models-with-rl)
-- [RL for Embodied AI/Robotics](#rl-for-embodied-ai/robotics)
-- [RL for Medical Reasoning](#rl-for-medical-reasoning)
-- [Audio Question Answering with RL](#audio-question-answering-with-rl)
+- [Vision Language Action Models with RL](#vision-language-action-models-with-rl)
+<!-- - [RL for Embodied AI/Robotics](#rl-for-embodied-ai/robotics) -->
+<!-- - [RL for Medical Reasoning](#rl-for-medical-reasoning) -->
+<!-- - [Audio Question Answering with RL](#audio-question-answering-with-rl) -->
 - [Others](#others)
 
 
@@ -113,6 +121,10 @@ Libraries and tools
 ### Multi-Modal Large Language Models with RL
 
 #### Spatial Reasoning \& Verification
+
++ [Improving the Reasoning of Multi-Image Grounding in MLLMs via Reinforcement Learning](https://arxiv.org/abs/2507.00748) (July. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.00748)
+
 
 + [SATORI-R1: Incentivizing Multimodal Reasoning with Spatial Grounding and Verifiable Rewards](https://arxiv.org/abs/2505.19094) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19094)
@@ -345,54 +357,8 @@ Libraries and tools
 + [Enhancing LLMs' Reasoning-Intensive Multimedia Search Capabilities through Fine-Tuning and Reinforcement Learning](https://arxiv.org/abs/2505.18831) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.18831)
 
-  
-
-### Visual Agents with RL
-
-+ [VTool-R1: VLMs Learn to Think with Images via Reinforcement Learning on Multimodal Tool Use](https://arxiv.org/abs/2505.19255) (May. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19255)
-  [![Star](https://img.shields.io/github/stars/VTool-R1/VTool-R1.svg?style=social&label=Star)](https://github.com/VTool-R1/VTool-R1)
 
 
-+ [VIKI‑R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning](https://arxiv.org/abs/2506.09049) (June. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.09049)
-  [![Star](https://img.shields.io/github/stars/MARS-EAI/VIKI-R.svg?style=social&label=Star)](https://github.com/MARS-EAI/VIKI-R)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://faceong.github.io/VIKI-R/)
-
-
-+ [Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning](https://arxiv.org/pdf/2505.12370) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.12370)
-  [![Star](https://img.shields.io/github/stars/YXB-NKU/SE-GUI.svg?style=social&label=Star)](https://github.com/YXB-NKU/SE-GUI)
-
-
-+ [VisualToolAgent (VisTA): A Reinforcement Learning Framework for Visual Tool Selection](https://arxiv.org/pdf/2505.20289) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20289)
-
-
-+ [UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/pdf/2305.15260) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2305.15260)
-  [![Star](https://img.shields.io/github/stars/lll6gg/UI-R1.svg?style=social&label=Star)](https://github.com/lll6gg/UI-R1)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://yxchai.com/UI-R1/)
-
-
-
-### Visual World Models with RL
-**Definition**: Learn predictive models of environment dynamics from visual inputs to enable planning and long-horizon reasoning in RL.
-
-
-+ [Mastering Diverse Domains through World Models](https://www.nature.com/articles/s41586-025-08744-2.pdf) (2025, Nature)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.nature.com/articles/s41586-025-08744-2.pdf)
-  [![Star](https://img.shields.io/github/stars/danijar/dreamerv3.svg?style=social&label=Star)](https://github.com/danijar/dreamerv3)
-
-+ [CoWorld: Making Offline RL Online: Collaborative World Models for Offline Visual Reinforcement Learning](https://arxiv.org/pdf/2305.15260) (2024, NeurIPS)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2305.15260)
-  [![Star](https://img.shields.io/github/stars/qiwang067/CoWorld.svg?style=social&label=Star)](https://github.com/qiwang067/CoWorld)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://qiwang067.github.io/coworld)
-
-+ [LS-Imagine: Open-World Reinforcement Learning over Long Short-Term Imagination](https://arxiv.org/abs/2410.03618) (2025, ICLR oral)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.03618)
-  [![Star](https://img.shields.io/github/stars/qiwang067/LS-Imagine.svg?style=social&label=Star)](https://github.com/qiwang067/LS-Imagine)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://qiwang067.github.io/ls-imagine)
 
 
 ### Visual Generation with RL
@@ -496,17 +462,14 @@ Libraries and tools
   [![Website](https://img.shields.io/badge/Website-9cf)](https://selftok-team.github.io/report/)
 
 
+### Vision Language Action Models with RL
 
-### RL for Embodied AI/Robotics
+#### Embodied AI/Robotics
 
 + [VIKI‑R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning](https://arxiv.org/pdf/2506.09049) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.09049)
   [![Star](https://img.shields.io/github/stars/MARS-EAI/VIKI-R.svg?style=social&label=Star)](https://github.com/MARS-EAI/VIKI-R)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://faceong.github.io/VIKI-R/)
-
-+ [VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2506.17221) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.17221)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://vlnr1.github.io/)
 
 + [OctoNav: Towards Generalist Embodied Navigation](https://arxiv.org/pdf/2506.09839) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.09839)
@@ -552,19 +515,42 @@ Libraries and tools
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vpg.cs.princeton.edu/)
 
 
-### RL for Medical Reasoning
++ [VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2506.17221) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.17221)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vlnr1.github.io/)
 
 
-+ [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/pdf/2502.19634) (Feb. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2502.19634)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/JZPeterPan/MedVLM-R1)
+#### Visual Agents with RL
 
-### Audio Question Answering with RL
++ [VTool-R1: VLMs Learn to Think with Images via Reinforcement Learning on Multimodal Tool Use](https://arxiv.org/abs/2505.19255) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19255)
+  [![Star](https://img.shields.io/github/stars/VTool-R1/VTool-R1.svg?style=social&label=Star)](https://github.com/VTool-R1/VTool-R1)
 
-+ [Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering](https://arxiv.org/pdf/2503.11197) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.11197)
-  [![Star](https://img.shields.io/github/stars/xiaomi-research/r1-aqa.svg?style=social&label=Star)](https://github.com/xiaomi-research/r1-aqa)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/mispeech/r1-aqa)
+
++ [VIKI‑R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning](https://arxiv.org/abs/2506.09049) (June. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.09049)
+  [![Star](https://img.shields.io/github/stars/MARS-EAI/VIKI-R.svg?style=social&label=Star)](https://github.com/MARS-EAI/VIKI-R)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://faceong.github.io/VIKI-R/)
+
+
++ [Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning](https://arxiv.org/pdf/2505.12370) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.12370)
+  [![Star](https://img.shields.io/github/stars/YXB-NKU/SE-GUI.svg?style=social&label=Star)](https://github.com/YXB-NKU/SE-GUI)
+
+
++ [VisualToolAgent (VisTA): A Reinforcement Learning Framework for Visual Tool Selection](https://arxiv.org/pdf/2505.20289) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20289)
+
+
++ [UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/pdf/2305.15260) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2305.15260)
+  [![Star](https://img.shields.io/github/stars/lll6gg/UI-R1.svg?style=social&label=Star)](https://github.com/lll6gg/UI-R1)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://yxchai.com/UI-R1/)
+
+
+
+
+
 
 ### Others
 
@@ -577,14 +563,57 @@ Libraries and tools
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.24025)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://christinepan881.github.io/DINO-R1/)
 
+#### Audio Question Answering with RL
+
+
++ [Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering](https://arxiv.org/pdf/2503.11197) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.11197)
+  [![Star](https://img.shields.io/github/stars/xiaomi-research/r1-aqa.svg?style=social&label=Star)](https://github.com/xiaomi-research/r1-aqa)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/mispeech/r1-aqa)
+
+
+#### RL for Medical Reasoning
+
+
++ [Uncertainty-aware Diffusion and Reinforcement Learning for Joint Plane Localization and Anomaly Diagnosis in 3D Ultrasound](https://arxiv.org/abs/2506.23538) (July. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.23538)
+  [![Star](https://img.shields.io/github/stars/yuhoo0302/CUA-US.svg?style=social&label=Star)](https://github.com/yuhoo0302/CUA-US)
+
++ [MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/pdf/2502.19634) (Feb. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2502.19634)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/JZPeterPan/MedVLM-R1)
+
+
+
+
+#### Visual World Models with RL
+**Definition**: Learn predictive models of environment dynamics from visual inputs to enable planning and long-horizon reasoning in RL.
+
+
++ [Mastering Diverse Domains through World Models](https://www.nature.com/articles/s41586-025-08744-2.pdf) (2025, Nature)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.nature.com/articles/s41586-025-08744-2.pdf)
+  [![Star](https://img.shields.io/github/stars/danijar/dreamerv3.svg?style=social&label=Star)](https://github.com/danijar/dreamerv3)
+
++ [CoWorld: Making Offline RL Online: Collaborative World Models for Offline Visual Reinforcement Learning](https://arxiv.org/pdf/2305.15260) (2024, NeurIPS)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2305.15260)
+  [![Star](https://img.shields.io/github/stars/qiwang067/CoWorld.svg?style=social&label=Star)](https://github.com/qiwang067/CoWorld)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://qiwang067.github.io/coworld)
+
++ [LS-Imagine: Open-World Reinforcement Learning over Long Short-Term Imagination](https://arxiv.org/abs/2410.03618) (2025, ICLR oral)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.03618)
+  [![Star](https://img.shields.io/github/stars/qiwang067/LS-Imagine.svg?style=social&label=Star)](https://github.com/qiwang067/LS-Imagine)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://qiwang067.github.io/ls-imagine)
+
+
 #### Blog
 
 + [Reinforcement Learning Guide](https://docs.unsloth.ai/basics/reinforcement-learning-guide) (2025, Blog)
 
-+ [Can RL From Pixels be as Efficient as RL From State?](https://bair.berkeley.edu/blog/2020/07/19/curl-rad/) (Jul. 2025, Blog)
-
++ [Can RL From Pixels be as Efficient as RL From State?](https://bair.berkeley.edu/blog/2020/07/19/curl-rad/) (Jl. 2025, Blog)
+u
 + [The 37 Implementation Details of Proximal Policy Optimization](https://iclr-blog-track.github.io/2022/03/25/ppo-implementation-details/) (Mar. 2022, ICLR Blog)
 
++ [Group Relative Policy Optimization (GRPO) Illustrated Breakdown & Explanation](https://pub.towardsai.net/group-relative-policy-optimization-grpo-illustrated-breakdown-explanation-684e71b8a3f2) (Jl. 2025, Blog)
 #### Learning Course
 
 + [Deep Reinforcement Learning Course from Hugging Face](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction) (Hugging Face)
