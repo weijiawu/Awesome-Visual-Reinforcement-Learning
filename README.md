@@ -1,10 +1,42 @@
 # Awesome-Visual-Reinforcement-Learning
-📖 This is a repository for organizing papers, codes and other resources related to Visual Reinforcement Learning.
+
+<div align="center">
+  <img src="assets/RL.png" alt="Logo" width="300">
+  <p align="center">
+    This repository accompanies our survey paper: <br>
+    <a href="https://arxiv.org/abs/2508.08189"><strong>Reinforcement Learning in Vision: A Survey</strong></a>
+  </p>
+</div>
+
+<div align="center">
+  <a href="https://arxiv.org/abs/2508.08189">
+    <img src="https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
+  </a>
+  <a href="https://github.com/weijiawu/Awesome-Visual-Reinforcement-Learning">
+    <img src="https://img.shields.io/badge/Think_With_Images-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white" alt="Github">
+  </a>
+  <a href="https://huggingface.co/papers/2508.08189">
+    <img src="https://img.shields.io/badge/HuggingFace-fcd022?style=for-the-badge&logo=huggingface&logoColor=000" alt="Hugging Face Collection">
+  </a>
+  <a href="https://x.com/weijiawu7/status/1955159048934088713">
+    <img src="https://img.shields.io/badge/Twitter-%23000000.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
+  </a>
+</div>
 
 
-<p align="center">
-  <img src="assets/RL.png" alt="TAX" style="display: block; margin: 0 auto;" width="300px" />
-</p>
+<!-- 📖 This is a repository for organizing papers, codes and other resources related to Visual Reinforcement Learning. -->
+
+
+---
+
+
+## 🔔 News
+-   **[2025-08-13]** We have released ["Reinforcement Learning in Vision: A Survey"](https://arxiv.org/abs/2508.08189), the **first comprehensive survey** dedicated to the emerging paradigm of "Visual RL". 
+-   **[2025-08-13]** We created this repository to maintain a paper list on Awesome-Visual-Reinforcement-Learning. **<span style="color:red">Everyone is welcome to push and update related work!</span>**
+
+
+---
+
 
 #### :thinking: What is Visual Reinforcement Learning?
 
@@ -16,27 +48,25 @@ Awesome-Visual-Reinforcement-Learning is a curated list of papers, libraries, an
 It aims to help researchers and practitioners navigate the fast-evolving Visual RL landscape — from perception and representation learning to policy learning and real-world applications.
 
 
-
-
 <p align="center">
-  <img src="assets/timeline.png" alt="TAX" style="display: block; margin: 0 auto;" width="500px" />
+  <img src="assets/timeline.png" alt="TAX" style="display: block; margin: 0 auto;" width="700px" />
 </p>
 
+We structure this collection along a trajectory of visual RL. This chart ugroups existing work by high-level domain (MLLMs, visual generation, unified models, and vision-language action agents) and then by finer-grained tasks, illustrating representative papers for each branch.:
+
+<p align="center">
+  <img src="assets/taxonomy.png" alt="TAX" style="display: block; margin: 0 auto;" width="800px" />
+</p>
 
 
 ## 📚 Table of Contents <!-- omit in toc -->
 Libraries and tools
 
 - [Benchmarks environments and datasets with Visual RL](#benchmarks-environments-and-datasets-with-visual-rl)
-- [Visual Perception with RL](#visual-perception-with-rl)
 - [Multi-Modal Large Language Models with RL](#multi-modal-large-language-models-with-rl)
-<!-- - [Visual Generation with RL](#visual-agents-with-rl) -->
 - [Visual Generation with RL](#visual-generation-with-rl)
 - [RL for Unified Model](#rl-for-unified-model)
 - [Vision Language Action Models with RL](#vision-language-action-models-with-rl)
-<!-- - [RL for Embodied AI/Robotics](#rl-for-embodied-ai/robotics) -->
-<!-- - [RL for Medical Reasoning](#rl-for-medical-reasoning) -->
-<!-- - [Audio Question Answering with RL](#audio-question-answering-with-rl) -->
 - [Others](#others)
 
 
@@ -61,41 +91,139 @@ Libraries and tools
   [![Website](https://img.shields.io/badge/Website-9cf)](https://sites.google.com/view/fightladder/home)
 
 
-### Visual Perception with RL
-**Definition**: Focus on learning effective visual representations—including segmentation, depth estimation, and object recognition—from pixel inputs to guide RL agent decision-making.
+### Multi-Modal Large Language Models with RL
 
-+ [Optimization-Free Patch Attack on Stereo Depth Estimation](https://arxiv.org/abs/2506.17632) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.17632)
+#### Conventional RL-based Frameworks for MLLM
+**Definition**: We refer to conventional RL-based MLLMs as approaches that apply reinforcement learning primarily to align a vision–language backbone with verifiable, task-level rewards, without explicitly modeling multi-step chain-of-thought reasoning.
 
-+ [VideoChat-R1: Enhancing Spatio-Temporal Perception via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2504.06958) (Apr. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.06958)
++ [RePIC: Reinforced Post-Training for Personalizing Multi-Modal Language Models](https://arxiv.org/abs/2506.18369) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.18369)
+  [![Star](https://img.shields.io/github/stars/oyt9306/RePIC.svg?style=social&label=Star)](https://github.com/oyt9306/RePIC)
+
++ [GoalLadder: Incremental Goal Discovery with Vision-Language Models](https://arxiv.org/abs/2506.16396) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.16396)
+
++ [Drive-R1: Bridging Reasoning and Planning in VLMs for Autonomous Driving with Reinforcement Learning](https://arxiv.org/abs/2506.18234) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.18234)
+
++ [VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model](https://arxiv.org/pdf/2504.07615) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.07615)
+  [![Star](https://img.shields.io/github/stars/om-ai-lab/VLM-R1.svg?style=social&label=Star)](https://github.com/om-ai-lab/VLM-R1)
+
++ [GRPO-CARE: Consistency-Aware Reinforcement Learning for Multimodal Reasoning](https://arxiv.org/pdf/2506.16141) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.16141)
+  [![Star](https://img.shields.io/github/stars/TencentARC/GRPO-CARE.svg?style=social&label=Star)](https://github.com/TencentARC/GRPO-CARE)
+
++ [Q-Ponder: A Unified Training Pipeline for Reasoning-based Visual Quality Assessment](https://arxiv.org/pdf/2506.05384) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.05384)
+  [![Star](https://img.shields.io/github/stars/vivoCameraResearch/Q-Ponder.svg?style=social&label=Star)](https://github.com/vivoCameraResearch/Q-Ponder)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vivocameraresearch.github.io/qponder/)
+
++ [MoDoMoDo: Multi-Domain Data Mixtures for Multimodal LLM Reinforcement Learning](https://arxiv.org/abs/2505.24871) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.24871)
+  [![Star](https://img.shields.io/github/stars/lynl7130/MoDoMoDo.svg?style=social&label=Star)](https://github.com/lynl7130/MoDoMoDo)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://modomodo-rl.github.io/)
+
++ [One RL to See Them All: Visual Triple Unified Reinforcement Learning](https://arxiv.org/abs/2505.18129) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.18129)
+  [![Star](https://img.shields.io/github/stars/MiniMax-AI/One-RL-to-See-Them-All.svg?style=social&label=Star)](https://github.com/MiniMax-AI/One-RL-to-See-Them-All)
+
++ [Vision-R1: Evolving Human-Free Alignment in Large Vision-Language Models via Vision-Guided Reinforcement Learning](https://arxiv.org/pdf/2503.18013) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.18013)
+  [![Star](https://img.shields.io/github/stars/jefferyZhan/Griffon.svg?style=social&label=Star)](https://github.com/jefferyZhan/Griffon)
+
++ [ProxyThinker: Test-Time Guidance through Small Visual Reasoners](https://arxiv.org/abs/2505.24872) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.24872)
+  [![Star](https://img.shields.io/github/stars/MrZilinXiao/ProxyThinker.svg?style=social&label=Star)](https://github.com/MrZilinXiao/ProxyThinker)
+
++ [Jigsaw-R1: A Study of Rule-based Visual Reinforcement Learning with Jigsaw Puzzles](https://arxiv.org/abs/2505.23590) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23590)
+  [![Star](https://img.shields.io/github/stars/zifuwanggg/Jigsaw-R1.svg?style=social&label=Star)](https://github.com/zifuwanggg/Jigsaw-R1)
+
++ [SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning](https://arxiv.org/abs/2506.01713) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01713)
+  [![Star](https://img.shields.io/github/stars/SUSTechBruce/SRPO_MLLMs.svg?style=social&label=Star)](https://github.com/SUSTechBruce/SRPO_MLLMs)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://srpo.pages.dev/#abstraction)
+
++ [R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization](https://arxiv.org/abs/2503.10615) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.10615)
+  [![Star](https://img.shields.io/github/stars/Fancy-MLLM/R1-onevision.svg?style=social&label=Star)](https://github.com/Fancy-MLLM/R1-onevision)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/spaces/Fancy-MLLM/R1-Onevision)
+
++ [Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning](https://arxiv.org/abs/2503.20752) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.20752)
+  [![Star](https://img.shields.io/github/stars/tanhuajie/Reason-RFT.svg?style=social&label=Star)](https://github.com/tanhuajie/Reason-RFT)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tanhuajie.github.io/ReasonRFT/)
+
++ [SegAgent: Exploring Pixel Understanding Capabilities in MLLMs by Imitating Human Annotator Trajectories](https://arxiv.org/abs/2503.08625) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.08625)
+  [![Star](https://img.shields.io/github/stars/aim-uofa/SegAgent.svg?style=social&label=Star)](https://github.com/aim-uofa/SegAgent)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://aim-uofa.github.io/SegAgent/)
+
++ [VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank](https://arxiv.org/pdf/2505.14460) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.14460)
+  [![Star](https://img.shields.io/github/stars/TianheWu/VisualQuality-R1.svg?style=social&label=Star)](https://github.com/TianheWu/VisualQuality-R1)
+
++ [Improving the Reasoning of Multi-Image Grounding in MLLMs via Reinforcement Learning](https://arxiv.org/abs/2507.00748) (July. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.00748)
+
++ [SATORI-R1: Incentivizing Multimodal Reasoning with Spatial Grounding and Verifiable Rewards](https://arxiv.org/abs/2505.19094) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19094)
+  [![Star](https://img.shields.io/github/stars/justairr/SATORI-R1.svg?style=social&label=Star)](https://github.com/justairr/SATORI-R1)
+
+
+<!-- + [Integrating Saliency Ranking and Reinforcement Learning for Enhanced Object Detection](https://arxiv.org/abs/2408.06803) (Aug. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.06803)
+  [![Star](https://img.shields.io/github/stars/mbar0075/SaRLVision.svg?style=social&label=Star)](https://github.com/mbar0075/SaRLVision)
+ -->
+
++ [Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning](https://arxiv.org/pdf/2504.16656) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.16656)
+  [![Star](https://img.shields.io/github/stars/SkyworkAI/Skywork-R1V.svg?style=social&label=Star)](https://github.com/SkyworkAI/Skywork-R1V)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/Skywork/Skywork-R1V2-38B)
+
++ [MMSearch-R1: Incentivizing LMMs to Search](https://arxiv.org/abs/2506.20670) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.20670)
+  [![Star](https://img.shields.io/github/stars/EvolvingLMMs-Lab/multimodal-search-r1.svg?style=social&label=Star)](https://github.com/EvolvingLMMs-Lab/multimodal-search-r1)
+
++ [Self-Rewarding Large Vision-Language Models for Optimizing Prompts in Text-to-Image Generation](https://arxiv.org/pdf/2505.16763) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.16763)
+
+
+
+#### Spatial & 3D Perception with RL for MLLMs
+**Definition**: Perception centric works applies RL to sharpen object detection, segmentation and grounding without engaging in lengthy chain–of–thought reasoning.
 
 + [Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration](https://arxiv.org/pdf/2505.20256) (May. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20256)
   [![Star](https://img.shields.io/github/stars/aim-uofa/Omni-R1.svg?style=social&label=Star)](https://github.com/aim-uofa/Omni-R1)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://aim-uofa.github.io/OmniR1/)
 
++ [DIP-R1: Deep Inspection and Perception with RL Looking Through and Understanding Complex Scenes](https://arxiv.org/abs/2505.23179) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23179)
 
-+ [VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning](https://arxiv.org/pdf/2505.22019) (May. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.22019)
-  [![Star](https://img.shields.io/github/stars/Alibaba-NLP/VRAG.svg?style=social&label=Star)](https://github.com/Alibaba-NLP/VRAG)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://modomodo-rl.github.io/)
++ [MetaSpatial: Reinforcing 3D Spatial Reasoning in VLMs for the Metaverse](https://arxiv.org/abs/2503.18470) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.18470)
+  [![Star](https://img.shields.io/github/stars/PzySeere/MetaSpatial.svg?style=social&label=Star)](https://github.com/PzySeere/MetaSpatial)
 
++ [BindGPT: A Scalable Framework for 3D Molecular Design via Language Modeling and Reinforcement Learning](https://arxiv.org/abs/2406.03686) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.03686)
 
-+ [VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank](https://arxiv.org/pdf/2505.14460) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.14460)
-  [![Star](https://img.shields.io/github/stars/TianheWu/VisualQuality-R1.svg?style=social&label=Star)](https://github.com/TianheWu/VisualQuality-R1)
-
-
-+ [Integrating Saliency Ranking and Reinforcement Learning for Enhanced Object Detection](https://arxiv.org/abs/2408.06803) (Aug. 2024, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.06803)
-  [![Star](https://img.shields.io/github/stars/mbar0075/SaRLVision.svg?style=social&label=Star)](https://github.com/mbar0075/SaRLVision)
-
++ [Scene-R1: Video-Grounded Large Language Models for 3D Scene Reasoning without 3D Annotations](https://arxiv.org/abs/2506.17545) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.17545)
 
 + [Perception-R1: Pioneering Perception Policy with Reinforcement Learning](https://arxiv.org/pdf/2504.07954) (Apr. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.07954)
   [![Star](https://img.shields.io/github/stars/linkangheng/PR1.svg?style=social&label=Star)](https://github.com/linkangheng/PR1)
 
++ [VisRL: Intention-Driven Visual Perception via Reinforced Reasoning](https://arxiv.org/pdf/2503.07523) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.07523)
+  [![Star](https://img.shields.io/github/stars/zhangquanchen/VisRL.svg?style=social&label=Star)](https://github.com/zhangquanchen/VisRL)
+
++ [ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs](https://arxiv.org/pdf/2506.10128) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.10128)
+  [![Star](https://img.shields.io/github/stars/si0wang/ViCrit.svg?style=social&label=Star)](https://github.com/si0wang/ViCrit)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/datasets/zyang39/ViCrit-Train)
 
 + [VisionReasoner: Unified Visual Perception and Reasoning via Reinforcement Learning](https://arxiv.org/abs/2505.12081) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12081)
@@ -107,111 +235,140 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/Gabesarch/grounded-rl.svg?style=social&label=Star)](https://github.com/Gabesarch/grounded-rl)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://visually-grounded-rl.github.io/)
 
-
-+ [UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning](https://arxiv.org/abs/2505.14231) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14231)
-  [![Star](https://img.shields.io/github/stars/AMAP-ML/UniVG-R1.svg?style=social&label=Star)](https://github.com/AMAP-ML/UniVG-R1)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://amap-ml.github.io/UniVG-R1-page/)
-
-
 + [Visual-RFT: Visual Reinforcement Fine-Tuning](https://arxiv.org/abs/2503.01785) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.01785)
   [![Star](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT.svg?style=social&label=Star)](https://github.com/Liuziyu77/Visual-RFT)
 
-### Multi-Modal Large Language Models with RL
-
-#### Spatial Reasoning \& Verification
-
-+ [Improving the Reasoning of Multi-Image Grounding in MLLMs via Reinforcement Learning](https://arxiv.org/abs/2507.00748) (July. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.00748)
 
 
-+ [SATORI-R1: Incentivizing Multimodal Reasoning with Spatial Grounding and Verifiable Rewards](https://arxiv.org/abs/2505.19094) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19094)
-  [![Star](https://img.shields.io/github/stars/justairr/SATORI-R1.svg?style=social&label=Star)](https://github.com/justairr/SATORI-R1)
+#### Image Reasoning with RL for MLLMs
 
-+ [Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning](https://arxiv.org/pdf/2504.16656) (Apr. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.16656)
-  [![Star](https://img.shields.io/github/stars/SkyworkAI/Skywork-R1V.svg?style=social&label=Star)](https://github.com/SkyworkAI/Skywork-R1V)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/Skywork/Skywork-R1V2-38B)
+##### Think about Image
 
++ [SVQA-R1: Reinforcing Spatial Reasoning in MLLMs via View-Consistent Reward Optimization](https://arxiv.org/abs/2506.01371) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01371)
 
-+ [Pixel Reasoner: Incentivizing Pixel-Space Reasoning with Curiosity-Driven Reinforcement Learning](https://arxiv.org/abs/2505.15966) (May. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.15966)
-  [![Star](https://img.shields.io/github/stars/TIGER-AI-Lab/Pixel-Reasoner.svg?style=social&label=Star)](https://github.com/TIGER-AI-Lab/Pixel-Reasoner)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://tiger-ai-lab.github.io/Pixel-Reasoner)
++ [VL-GenRM: Enhancing Vision-Language Verification via Vision Experts and Iterative Training](https://arxiv.org/abs/2506.13888) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.13888)
 
++ [Perceptual Decoupling for Scalable Multi-modal Reasoning via Reward-Optimized Captioning](https://arxiv.org/abs/2506.04559) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.04559)
 
-+ [ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs](https://arxiv.org/pdf/2506.10128) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.10128)
-  [![Star](https://img.shields.io/github/stars/si0wang/ViCrit.svg?style=social&label=Star)](https://github.com/si0wang/ViCrit)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/datasets/zyang39/ViCrit-Train)
++ [EasyARC: Evaluating Vision Language Models on True Visual Reasoning](https://arxiv.org/abs/2506.11595) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.11595)
 
-
-+ [Vision-R1: Evolving Human-Free Alignment in Large Vision-Language Models via Vision-Guided Reinforcement Learning](https://arxiv.org/pdf/2503.18013) (May. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.18013)
-  [![Star](https://img.shields.io/github/stars/jefferyZhan/Griffon.svg?style=social&label=Star)](https://github.com/jefferyZhan/Griffon)
-
++ [STAR-R1: Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](https://arxiv.org/pdf/2505.15804) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15804)
+  [![Star](https://img.shields.io/github/stars/zongzhao23/STAR-R1.svg?style=social&label=Star)](https://github.com/zongzhao23/STAR-R1)
 
 + [Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning](https://arxiv.org/pdf/2505.14677) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.14677)
   [![Star](https://img.shields.io/github/stars/lll6gg/UI-R1.svg?style=social&label=Star)](https://github.com/lll6gg/UI-R1)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://www.maifoundations.com/blog/visionary-r1/)
 
++ [UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning](https://arxiv.org/abs/2505.14231) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14231)
+  [![Star](https://img.shields.io/github/stars/AMAP-ML/UniVG-R1.svg?style=social&label=Star)](https://github.com/AMAP-ML/UniVG-R1)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://amap-ml.github.io/UniVG-R1-page/)
 
-+ [RQwen Look Again: Guiding Vision-Language Reasoning Models to Re-attention Visual Information](https://www.arxiv.org/abs/2505.23558) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2505.23558)
-  [![Star](https://img.shields.io/github/stars/Liar406/Look_Again.svg?style=social&label=Star)](https://github.com/Liar406/Look_Again)
++ [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/pdf/2505.04623) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.04623)
+  [![Star](https://img.shields.io/github/stars/HarryHsing/EchoInk.svg?style=social&label=Star)](https://github.com/HarryHsing/EchoInk/tree/main)
 
++ [WeThink: Toward General-purpose Vision-Language Reasoning via Reinforcement Learning](https://arxiv.org/abs/2506.07905) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07905)
 
-+ [EasyARC: Evaluating Vision Language Models on True Visual Reasoning](https://arxiv.org/abs/2506.11595) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.11595)
++ [G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language Model via Reinforcement Learning](https://arxiv.org/abs/2505.13426) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.13426)
+  [![Star](https://img.shields.io/github/stars/chenllliang/G1.svg?style=social&label=Star)](https://github.com/chenllliang/G1)
 
-+ [Aha Moment Revisited: Are VLMs Truly Capable of Self Verification in Inference-time Scaling?](https://arxiv.org/abs/2506.17417) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.17417)
++ [GThinker: Towards General Multimodal Reasoning via Cue-Guided Rethinking](https://arxiv.org/abs/2506.01078) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01078)
+  [![Star](https://img.shields.io/github/stars/jefferyZhan/GThinker.svg?style=social&label=Star)](https://github.com/jefferyZhan/GThinker)
 
-+ [STAR-R1: Spatial TrAnsformation Reasoning by Reinforcing Multimodal LLMs](https://arxiv.org/pdf/2505.15804) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15804)
-  [![Star](https://img.shields.io/github/stars/zongzhao23/STAR-R1.svg?style=social&label=Star)](https://github.com/zongzhao23/STAR-R1)
++ [Observe-R1: Unlocking Reasoning Abilities of MLLMs with Dynamic Progressive Reinforcement Learning](https://arxiv.org/abs/2505.12432) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12432)
+  [![Star](https://img.shields.io/github/stars/zrguo/Observe-R1.svg?style=social&label=Star)](https://github.com/zrguo/Observe-R1)
 
 + [Perceptual Decoupling for Scalable Multi-modal Reasoning via Reward-Optimized Captioning](https://arxiv.org/abs/2506.04559) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.04559)
 
-+ [DIP-R1: Deep Inspection and Perception with RL Looking Through and Understanding Complex Scenes](https://arxiv.org/abs/2505.23179) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23179)
-
-+ [VL-GenRM: Enhancing Vision-Language Verification via Vision Experts and Iterative Training](https://arxiv.org/abs/2506.13888) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.13888)
-
-+ [SVQA-R1: Reinforcing Spatial Reasoning in MLLMs via View-Consistent Reward Optimization](https://arxiv.org/abs/2506.01371) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01371)
-
 + [Advancing Multimodal Reasoning Capabilities of Multimodal Large Language Models via Visual Perception Reward](https://arxiv.org/abs/2506.07218) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07218)
+
++ [MiMo-VL Technical Report](https://arxiv.org/abs/2506.03569) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.03569)
+  [![Star](https://img.shields.io/github/stars/XiaomiMiMo/MiMo-VL.svg?style=social&label=Star)](https://github.com/XiaomiMiMo/MiMo-VL)
+
++ [Enhancing LLMs' Reasoning-Intensive Multimedia Search Capabilities through Fine-Tuning and Reinforcement Learning](https://arxiv.org/abs/2505.18831) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.18831)
+
+
+
+##### Think with Image
+**Definition**: Thinking with Images elevates the picture to an active, external workspace: models iteratively generate, crop, highlight, sketch or insert explicit visual annotations as tokens in their chain-of-thought, thereby aligning linguistic logic with grounded visual evidence.
+
++ [Visual Planning: Let's Think Only with Images](https://arxiv.org/abs/2505.11409) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.11409)
+
++ [GRIT: Teaching MLLMs to Think with Images](https://arxiv.org/pdf/2505.15879) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15879)
 
 + [Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing](https://arxiv.org/abs/2506.09965) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.09965)
 
++ [Qwen Look Again: Guiding Vision-Language Reasoning Models to Re-attention Visual Information](https://www.arxiv.org/abs/2505.23558) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2505.23558)
+  [![Star](https://img.shields.io/github/stars/Liar406/Look_Again.svg?style=social&label=Star)](https://github.com/Liar406/Look_Again)
+
 + [Ground-R1: Incentivizing Grounded Visual Reasoning via Reinforcement Learning](https://arxiv.org/pdf/2505.20272) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20272)
 
++ [Pixel Reasoner: Incentivizing Pixel-Space Reasoning with Curiosity-Driven Reinforcement Learning](https://arxiv.org/abs/2505.15966) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.15966)
+  [![Star](https://img.shields.io/github/stars/TIGER-AI-Lab/Pixel-Reasoner.svg?style=social&label=Star)](https://github.com/TIGER-AI-Lab/Pixel-Reasoner)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tiger-ai-lab.github.io/Pixel-Reasoner)
+
++ [DeepEyes: Incentivizing “Thinking with Images” via Reinforcement Learning](https://arxiv.org/abs/2505.14362) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14362)
+  [![Star](https://img.shields.io/github/stars/Visual-Agent/DeepEyes.svg?style=social&label=Star)](https://github.com/Visual-Agent/DeepEyes)
+
++ [TACO: Think-Answer Consistency for Optimized Long-Chain Reasoning and Efficient Data Learning via Reinforcement Learning in LVLMs](https://arxiv.org/abs/2505.20777) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.20777)
+
++ [VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning](https://arxiv.org/pdf/2505.22019) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.22019)
+  [![Star](https://img.shields.io/github/stars/Alibaba-NLP/VRAG.svg?style=social&label=Star)](https://github.com/Alibaba-NLP/VRAG)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://modomodo-rl.github.io/)
+
++ [VisualToolAgent (VisTA): A Reinforcement Learning Framework for Visual Tool Selection](https://arxiv.org/pdf/2505.20289) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20289)
+
++ [Thinking with Generated Images](https://arxiv.org/abs/2505.22525) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.22525)
+  [![Star](https://img.shields.io/github/stars/GAIR-NLP/thinking-with-generated-images.svg?style=social&label=Star)](https://github.com/GAIR-NLP/thinking-with-generated-images)
+
++ [Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL](https://arxiv.org/abs/2505.15436) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.15436)
+
++ [Openthinkimg: Learning to think with images via visual tool reinforcement learning](https://arxiv.org/abs/2505.08617) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.08617)
+  [![Star](https://img.shields.io/github/stars/zhaochen0110/OpenThinkIMG.svg?style=social&label=Star)](https://github.com/zhaochen0110/OpenThinkIMG)
+
++ [Active-O3: Empowering Multimodal Large Language Models with Active Perception via GRPO](https://arxiv.org/abs/2505.21457) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.21457)
+  [![Star](https://img.shields.io/github/stars/aim-uofa/Active-o3.svg?style=social&label=Star)](https://github.com/aim-uofa/Active-o3)
+
++ [VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning](https://arxiv.org/pdf/2505.22019) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.22019)
+  [![Star](https://img.shields.io/github/stars/Alibaba-NLP/VRAG.svg?style=social&label=Star)](https://github.com/Alibaba-NLP/VRAG)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://modomodo-rl.github.io/)
 
 
-#### Video \& Temporal Understanding
-
-+ [TimeMaster: Training Time-Series Multimodal LLMs to Reason via Reinforcement Learning](https://arxiv.org/abs/2506.13705) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.13705)
 
 
-+ [VAU-R1: Advancing Video Anomaly Understanding via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2505.23504) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.23504)
-  [![Star](https://img.shields.io/github/stars/GVCLab/VAU-R1.svg?style=social&label=Star)](https://github.com/GVCLab/VAU-R1)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://github.com/GVCLab/VAU-R1?tab=readme-ov-file)
 
-+ [EgoVLM: Policy Optimization for Egocentric Video Understanding](https://arxiv.org/abs/2506.03097) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.03097)
-  [![Star](https://img.shields.io/github/stars/adityavavre/VidEgoVLM.svg?style=social&label=Star)](https://github.com/adityavavre/VidEgoVLM)
-
+#### Video Reasoning with RL for MLLMs
 
 + [VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progressive Visual Reinforcement Learning](https://arxiv.org/abs/2506.18564) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.18564)
@@ -220,143 +377,58 @@ Libraries and tools
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.24718)
   [![Star](https://img.shields.io/github/stars/longmalongma/TW-GRPO.svg?style=social&label=Star)](https://github.com/longmalongma/TW-GRPO)
 
-+ [Reinforcement Learning Tuning for VideoLLMs: Reward Design and Data Efficiency](https://arxiv.org/abs/2506.01908) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01908)
-  [![Star](https://img.shields.io/github/stars/appletea233/Temporal-R1.svg?style=social&label=Star)](https://github.com/appletea233/Temporal-R1)
++ [EgoVLM: Policy Optimization for Egocentric Video Understanding](https://arxiv.org/abs/2506.03097) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.03097)
+  [![Star](https://img.shields.io/github/stars/adityavavre/VidEgoVLM.svg?style=social&label=Star)](https://github.com/adityavavre/VidEgoVLM)
 
++ [VAU-R1: Advancing Video Anomaly Understanding via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2505.23504) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.23504)
+  [![Star](https://img.shields.io/github/stars/GVCLab/VAU-R1.svg?style=social&label=Star)](https://github.com/GVCLab/VAU-R1)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://github.com/GVCLab/VAU-R1?tab=readme-ov-file)
 
 + [DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO](https://arxiv.org/pdf/2506.07464) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.07464)
   [![Star](https://img.shields.io/github/stars/mlvlab/DeepVideoR1.svg?style=social&label=Star)](https://github.com/mlvlab/DeepVideoR1)
 
++ [TimeMaster: Training Time-Series Multimodal LLMs to Reason via Reinforcement Learning](https://arxiv.org/abs/2506.13705) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.13705)
 
-#### Goal-Driven \& Personalized Learning
++ [VideoChat-R1: Enhancing Spatio-Temporal Perception via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2504.06958) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.06958)
 
-+ [Jigsaw-R1: A Study of Rule-based Visual Reinforcement Learning with Jigsaw Puzzles](https://arxiv.org/abs/2505.23590) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23590)
-  [![Star](https://img.shields.io/github/stars/zifuwanggg/Jigsaw-R1.svg?style=social&label=Star)](https://github.com/zifuwanggg/Jigsaw-R1)
-
-+ [Q-Ponder: A Unified Training Pipeline for Reasoning-based Visual Quality Assessment](https://arxiv.org/pdf/2506.05384) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.05384)
-  [![Star](https://img.shields.io/github/stars/vivoCameraResearch/Q-Ponder.svg?style=social&label=Star)](https://github.com/vivoCameraResearch/Q-Ponder)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://vivocameraresearch.github.io/qponder/)
-
-+ [MMSearch-R1: Incentivizing LMMs to Search](https://arxiv.org/abs/2506.20670) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.20670)
-  [![Star](https://img.shields.io/github/stars/EvolvingLMMs-Lab/multimodal-search-r1.svg?style=social&label=Star)](https://github.com/EvolvingLMMs-Lab/multimodal-search-r1)
++ [Reinforcement Learning Tuning for VideoLLMs: Reward Design and Data Efficiency](https://arxiv.org/abs/2506.01908) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01908)
+  [![Star](https://img.shields.io/github/stars/appletea233/Temporal-R1.svg?style=social&label=Star)](https://github.com/appletea233/Temporal-R1)
 
 
-+ [VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model](https://arxiv.org/pdf/2504.07615) (May. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.07615)
-  [![Star](https://img.shields.io/github/stars/om-ai-lab/VLM-R1.svg?style=social&label=Star)](https://github.com/om-ai-lab/VLM-R1)
+<!-- 
+### Visual Perception with RL
+**Definition**: Focus on learning effective visual representations—including segmentation, depth estimation, and object recognition—from pixel inputs to guide RL agent decision-making.
 
++ [Optimization-Free Patch Attack on Stereo Depth Estimation](https://arxiv.org/abs/2506.17632) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.17632)
+ -->
 
-+ [WeThink: Toward General-purpose Vision-Language Reasoning via Reinforcement Learning](https://arxiv.org/abs/2506.07905) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07905)
+<!-- + [Aha Moment Revisited: Are VLMs Truly Capable of Self Verification in Inference-time Scaling?](https://arxiv.org/abs/2506.17417) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.17417) -->
 
+<!-- #### Video \& Temporal Understanding -->
 
-+ [Self-Rewarding Large Vision-Language Models for Optimizing Prompts in Text-to-Image Generation](https://arxiv.org/pdf/2505.16763) (May. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.16763)
-
-
-+ [Drive-R1: Bridging Reasoning and Planning in VLMs for Autonomous Driving with Reinforcement Learning](https://arxiv.org/abs/2506.18234) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.18234)
-
+<!-- #### Goal-Driven \& Personalized Learning -->
+<!-- 
 
 + [Play to Generalize: Learning to Reason Through Game Play](https://arxiv.org/abs/2506.08011) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.08011)
   [![Star](https://img.shields.io/github/stars/yunfeixie233/ViGaL.svg?style=social&label=Star)](https://github.com/yunfeixie233/ViGaL)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://yunfeixie233.github.io/ViGaL/)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://yunfeixie233.github.io/ViGaL/) -->
 
-+ [GoalLadder: Incremental Goal Discovery with Vision-Language Models](https://arxiv.org/abs/2506.16396) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.16396)
-
-+ [DeepEyes: Incentivizing “Thinking with Images” via Reinforcement Learning](https://arxiv.org/abs/2505.14362) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14362)
-  [![Star](https://img.shields.io/github/stars/Visual-Agent/DeepEyes.svg?style=social&label=Star)](https://github.com/Visual-Agent/DeepEyes)
-
-+ [RePIC: Reinforced Post-Training for Personalizing Multi-Modal Language Models](https://arxiv.org/abs/2506.18369) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.18369)
-  [![Star](https://img.shields.io/github/stars/oyt9306/RePIC.svg?style=social&label=Star)](https://github.com/oyt9306/RePIC)
-
-+ [G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language Model via Reinforcement Learning](https://arxiv.org/abs/2505.13426) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.13426)
-  [![Star](https://img.shields.io/github/stars/chenllliang/G1.svg?style=social&label=Star)](https://github.com/chenllliang/G1)
-
-#### Architectural \& Reasoning Mechanisms
+<!-- #### Architectural \& Reasoning Mechanisms -->
 
 
-
-+ [TACO: Think-Answer Consistency for Optimized Long-Chain Reasoning and Efficient Data Learning via Reinforcement Learning in LVLMs](https://arxiv.org/abs/2505.20777) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.20777)
-
-+ [ProxyThinker: Test-Time Guidance through Small Visual Reasoners](https://arxiv.org/abs/2505.24872) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.24872)
-  [![Star](https://img.shields.io/github/stars/MrZilinXiao/ProxyThinker.svg?style=social&label=Star)](https://github.com/MrZilinXiao/ProxyThinker)
-
-+ [GThinker: Towards General Multimodal Reasoning via Cue-Guided Rethinking](https://arxiv.org/abs/2506.01078) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01078)
-  [![Star](https://img.shields.io/github/stars/jefferyZhan/GThinker.svg?style=social&label=Star)](https://github.com/jefferyZhan/GThinker)
-
-+ [MiMo-VL Technical Report](https://arxiv.org/abs/2506.03569) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.03569)
-  [![Star](https://img.shields.io/github/stars/XiaomiMiMo/MiMo-VL.svg?style=social&label=Star)](https://github.com/XiaomiMiMo/MiMo-VL)
-
-+ [GRPO-CARE: Consistency-Aware Reinforcement Learning for Multimodal Reasoning](https://arxiv.org/pdf/2506.16141) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.16141)
-  [![Star](https://img.shields.io/github/stars/TencentARC/GRPO-CARE.svg?style=social&label=Star)](https://github.com/TencentARC/GRPO-CARE)
-
-+ [Machine Mental Imagery: Empower Multimodal Reasoning with Latent Visual Tokens](https://www.arxiv.org/abs/2506.17218) (Jun. 2025, arXiv)
+<!-- + [Machine Mental Imagery: Empower Multimodal Reasoning with Latent Visual Tokens](https://www.arxiv.org/abs/2506.17218) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2506.17218)
   [![Star](https://img.shields.io/github/stars/UMass-Embodied-AGI/Mirage.svg?style=social&label=Star)](https://github.com/UMass-Embodied-AGI/Mirage)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://vlm-mirage.github.io/)
-
-+ [GRIT: Teaching MLLMs to Think with Images](https://arxiv.org/pdf/2505.15879) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15879)
-
-+ [SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning](https://arxiv.org/abs/2506.01713) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01713)
-  [![Star](https://img.shields.io/github/stars/SUSTechBruce/SRPO_MLLMs.svg?style=social&label=Star)](https://github.com/SUSTechBruce/SRPO_MLLMs)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://srpo.pages.dev/#abstraction)
-
-+ [VisRL: Intention-Driven Visual Perception via Reinforced Reasoning](https://arxiv.org/pdf/2503.07523) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.07523)
-  [![Star](https://img.shields.io/github/stars/zhangquanchen/VisRL.svg?style=social&label=Star)](https://github.com/zhangquanchen/VisRL)
-
-+ [Observe-R1: Unlocking Reasoning Abilities of MLLMs with Dynamic Progressive Reinforcement Learning](https://arxiv.org/abs/2505.12432) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12432)
-  [![Star](https://img.shields.io/github/stars/zrguo/Observe-R1.svg?style=social&label=Star)](https://github.com/zrguo/Observe-R1)
-
-
-+ [VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning](https://arxiv.org/pdf/2505.22019) (May. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.22019)
-  [![Star](https://img.shields.io/github/stars/Alibaba-NLP/VRAG.svg?style=social&label=Star)](https://github.com/Alibaba-NLP/VRAG)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://modomodo-rl.github.io/)
-
-+ [MoDoMoDo: Multi-Domain Data Mixtures for Multimodal LLM Reinforcement Learning](https://arxiv.org/abs/2505.24871) (May. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.24871)
-  [![Star](https://img.shields.io/github/stars/lynl7130/MoDoMoDo.svg?style=social&label=Star)](https://github.com/lynl7130/MoDoMoDo)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://modomodo-rl.github.io/)
-
-
-+ [Reason-RFT: Reinforcement Fine-Tuning for Visual Reasoning](https://arxiv.org/abs/2503.20752) (May. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.20752)
-  [![Star](https://img.shields.io/github/stars/tanhuajie/Reason-RFT.svg?style=social&label=Star)](https://github.com/tanhuajie/Reason-RFT)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://tanhuajie.github.io/ReasonRFT/)
-
-
-+ [EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning](https://arxiv.org/pdf/2505.04623) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.04623)
-  [![Star](https://img.shields.io/github/stars/HarryHsing/EchoInk.svg?style=social&label=Star)](https://github.com/HarryHsing/EchoInk/tree/main)
-
-
-+ [One RL to See Them All: Visual Triple Unified Reinforcement Learning](https://arxiv.org/abs/2505.18129) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.18129)
-  [![Star](https://img.shields.io/github/stars/MiniMax-AI/One-RL-to-See-Them-All.svg?style=social&label=Star)](https://github.com/MiniMax-AI/One-RL-to-See-Them-All)
-
-+ [Enhancing LLMs' Reasoning-Intensive Multimedia Search Capabilities through Fine-Tuning and Reinforcement Learning](https://arxiv.org/abs/2505.18831) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.18831)
-
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vlm-mirage.github.io/) -->
 
 
 
@@ -538,9 +610,6 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/YXB-NKU/SE-GUI.svg?style=social&label=Star)](https://github.com/YXB-NKU/SE-GUI)
 
 
-+ [VisualToolAgent (VisTA): A Reinforcement Learning Framework for Visual Tool Selection](https://arxiv.org/pdf/2505.20289) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20289)
-
 
 + [UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/pdf/2305.15260) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2305.15260)
@@ -637,4 +706,8 @@ If you have any suggestions (missing papers, new papers, or typos), please feel 
 ## Acknowledgements
 
 This template is provided by [Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion). And our approach builds upon numerous contributions from prior resource, such as [Awesome Visual RL](https://github.com/qiwang067/awesome-visual-rl).
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=weijiawu/Awesome-Visual-Reinforcement-Learning&type=Date)](https://www.star-history.com/#weijiawu/Awesome-Visual-Reinforcement-Learning&Date)
 
