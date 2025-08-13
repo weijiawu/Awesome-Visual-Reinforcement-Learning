@@ -31,7 +31,8 @@
 
 ## 🔔 News
 -   **[2025-08-13]** We have released ["Reinforcement Learning in Vision: A Survey"](https://arxiv.org/abs/2508.08189), the **first comprehensive survey** dedicated to the emerging paradigm of "Visual RL". 
--   **[2025-08-13]** We created this repository to maintain a paper list on Awesome-Visual-Reinforcement-Learning. **<span style="color:red">Everyone is welcome to push and update related work!</span>**
+-   **[2025-08-13]** We reorganized the repository and aligned the classifications in the survey. 
+-   **[2025-06-08]** We created this repository to maintain a paper list on Awesome-Visual-Reinforcement-Learning. **<span style="color:red">Everyone is welcome to push and update related work!</span>**
 
 
 ---
