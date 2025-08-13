@@ -548,8 +548,12 @@ Libraries and tools
   [![Website](https://img.shields.io/badge/Website-9cf)](https://yxchai.com/UI-R1/)
 
 
++ [DigiRL: Training In‑The‑Wild Device‑Control Agents with Autonomous Reinforcement Learning](https://arxiv.org/abs/2406.11896) (Jun. 2024, NeurIPS 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.11896)  
 
 
++ [ARPO: End‑to‑End Policy Optimization for GUI Agents with Experience Replay](https://arxiv.org/abs/2505.16282) (May 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.16282)
 
 
 ### Others
