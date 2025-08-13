@@ -3,8 +3,7 @@
 <div align="center">
   <img src="assets/RL.png" alt="Logo" width="300">
   <p align="center">
-    This repository accompanies our survey paper: <br>
-    <a href="https://arxiv.org/abs/2508.08189"><strong>Reinforcement Learning in Vision: A Survey</strong></a>
+    This repository accompanies our survey paper: <br><a href="https://arxiv.org/abs/2508.08189"><strong>Reinforcement Learning in Vision: A Survey</strong></a>
   </p>
 </div>
 
