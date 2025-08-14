@@ -445,74 +445,176 @@ Libraries and tools
 
 **Definition**: Study RL agents that generate or manipulate visual content to achieve goals or enable creative visual tasks.
 
-+ [Fine-Tuning Next-Scale Visual Autoregressive Models with Group Relative Policy Optimization](https://arxiv.org/abs/2505.23331) (May. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23331)
 
+#### Image Generation
+
++ [ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation](https://arxiv.org/abs/2304.05977) (Apr. 2023, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2304.05977)
+  [![Star](https://img.shields.io/github/stars/zai-org/ImageReward.svg?style=social&label=Star)](https://github.com/zai-org/ImageReward)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://zhuanlan.zhihu.com/p/639494251)
 
 + [ReasonGen-R1: Cot for Autoregressive Image generation models through SFT and RL](https://arxiv.org/abs/2505.24875) (May. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.24875)
   [![Star](https://img.shields.io/github/stars/Franklin-Zhang0/ReasonGen-R1.svg?style=social&label=Star)](https://github.com/Franklin-Zhang0/ReasonGen-R1)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://reasongen-r1.github.io/)
 
-
 + [FocusDiff: Advancing Fine-Grained Text-Image Alignment for Autoregressive Visual Generation through RL](https://arxiv.org/pdf/2506.05501) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.05501)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://focusdiff.github.io/)
-
 
 + [DPOK: Reinforcement Learning for Fine-tuning Text-to-Image Diffusion Models](https://arxiv.org/abs/2305.16381) (May. 2023, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.16381)
   [![Star](https://img.shields.io/github/stars/google-research/google-research.svg?style=social&label=Star)](https://github.com/google-research/google-research)
 
-
-+ [A Simple and Effective Reinforcement Learning Method for Text-to-Image Diffusion Fine-tuning](https://arxiv.org/abs/2503.00897) (May. 2025, arXiv)
++ [A Simple and Effective Reinforcement Learning Method for Text-to-Image Diffusion Fine-tuning](https://arxiv.org/abs/2503.00897) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.00897)
-
-+ [Training Diffusion Models with Reinforcement Learning](https://arxiv.org/abs/2305.13301) (May. 2023, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.13301)
-  [![Star](https://img.shields.io/github/stars/jannerm/ddpo.svg?style=social&label=Star)](https://github.com/jannerm/ddpo)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://rl-diffusion.github.io/)
-
 
 + [PrefPaint: Aligning Image Inpainting Diffusion Model with Human Preference](https://arxiv.org/abs/2410.21966) (2024, Neurips)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.21966)
   [![Star](https://img.shields.io/github/stars/Kenkenzaii/PrefPaint.svg?style=social&label=Star)](https://github.com/Kenkenzaii/PrefPaint)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://prefpaint.github.io/)
 
-
-+ [RePrompt: Reasoning-Augmented Reprompting for Text-to-Image Generation via Reinforcement Learning](https://arxiv.org/abs/2505.17540) (May. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17540)
-  [![Star](https://img.shields.io/github/stars/microsoft/DKI_LLM.svg?style=social&label=Star)](https://github.com/microsoft/DKI_LLM)
-
-
-+ [Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning](https://arxiv.org/abs/2407.06642) (2024, ECCV)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.06642)
-  [![Star](https://img.shields.io/github/stars/wfanyue/DPG-T2I-Personalization.svg?style=social&label=Star)](https://github.com/wfanyue/DPG-T2I-Personalization)
-
-
-+ [Enhancing Diffusion Models with Text-Encoder Reinforcement Learning](https://arxiv.org/pdf/2311.15657) (2024, ECCV)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2311.15657)
-
-
-+ [Rendering-Aware Reinforcement Learning for Vector Graphics Generation](https://arxiv.org/pdf/2505.20793) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20793)
++ [Rendering-Aware Reinforcement Learning for Vector Graphics Generation](https://arxiv.org/abs/2505.20793) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.20793)
 
 
 + [GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning](https://arxiv.org/abs/2505.17022) (May. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17022)
   [![Star](https://img.shields.io/github/stars/gogoduan/GoT-R1.svg?style=social&label=Star)](https://github.com/gogoduan/GoT-R1)
 
++ [D-Fusion: Direct Preference Optimization for Aligning Diffusion Models with Visually Consistent Samples](https://arxiv.org/abs/2505.22002) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.22002)
+
++ [Training Diffusion Models with Reinforcement Learning](https://arxiv.org/abs/2305.13301) (May. 2023, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.13301)
+  [![Star](https://img.shields.io/github/stars/jannerm/ddpo.svg?style=social&label=Star)](https://github.com/jannerm/ddpo)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://rl-diffusion.github.io/)
+
++ [Diffusion model alignment using direct preference optimization](https://arxiv.org/abs/2311.12908) (Nov. 2023, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2311.12908)
+
++ [Aligning diffusion models by optimizing human utility](https://arxiv.org/abs/2404.04465) (Apr. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.04465)
+
++ [Diffusion-rpo: Aligning diffusion models through relative preference optimization](https://arxiv.org/abs/2406.06382) (Jun. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.06382)
+  [![Star](https://img.shields.io/github/stars/yigu1008/Diffusion-RPO.svg?style=social&label=Star)](https://github.com/yigu1008/Diffusion-RPO)
+
++ [Parrot: Pareto-optimal Multi-Reward Reinforcement Learning Framework for Text-to-Image Generation](https://arxiv.org/abs/2401.05675) (Jan. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2401.05675)
+
++ [Powerful and Flexible: Personalized Text-to-Image Generation via Reinforcement Learning](https://arxiv.org/abs/2407.06642) (2024, ECCV)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.06642)
+  [![Star](https://img.shields.io/github/stars/wfanyue/DPG-T2I-Personalization.svg?style=social&label=Star)](https://github.com/wfanyue/DPG-T2I-Personalization)
+
++ [Subject-driven text-to-image generation via preference-based reinforcement learning](https://arxiv.org/abs/2407.12164) (Jul. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.12164)
+
++ [RePrompt: Reasoning-Augmented Reprompting for Text-to-Image Generation via Reinforcement Learning](https://arxiv.org/abs/2505.17540) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17540)
+  [![Star](https://img.shields.io/github/stars/microsoft/DKI_LLM.svg?style=social&label=Star)](https://github.com/microsoft/DKI_LLM)
+
++ [RL for consistency models: Reward guided text-to-image generation with fast inference](https://arxiv.org/abs/2404.03673) (Mar. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2404.03673)
+  [![Star](https://img.shields.io/github/stars/Owen-Oertell/rlcm.svg?style=social&label=Star)](https://github.com/Owen-Oertell/rlcm)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://rlcm.owenoertell.com/)
+
++ [Towards better alignment: Training diffusion models with reinforcement learning against sparse rewards](https://arxiv.org/abs/2503.11240) (CVPR 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.11240)
+  [![Star](https://img.shields.io/github/stars/hu-zijing/B2-DiffuRL.svg?style=social&label=Star)](https://github.com/hu-zijing/B2-DiffuRL)
+
++ [DiffPPO: Reinforcement Learning Fine-Tuning of Diffusion Models for Text-to-Image Generation](https://ieeexplore.ieee.org/document/10987802) (ICNC 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://ieeexplore.ieee.org/document/10987802)
+
++ [Simplear: Pushing the frontier of autoregressive visual generation through pretraining, sft, and rl](https://arxiv.org/pdf/2504.11455?) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.11455?)
+  [![Star](https://img.shields.io/github/stars/wdrink/SimpleAR.svg?style=social&label=Star)](https://github.com/wdrink/SimpleAR)
+
++ [Multimodal LLMs as Customized Reward Models for Text-to-Image Generation](https://arxiv.org/abs/2507.21391) (Jul. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.21391)
+  [![Star](https://img.shields.io/github/stars/sjz5202/LLaVA-Reward.svg?style=social&label=Star)](https://github.com/sjz5202/LLaVA-Reward)
+
++ [Flow-GRPO: Training Flow Matching Models via Online RL](https://arxiv.org/abs/2505.05470) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.05470)
+  [![Star](https://img.shields.io/github/stars/yifan123/flow_grpo.svg?style=social&label=Star)](https://github.com/yifan123/flow_grpo)
+
++ [Fine-Tuning Next-Scale Visual Autoregressive Models with Group Relative Policy Optimization](https://arxiv.org/abs/2505.23331) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23331)
+
++ [Enhancing Diffusion Models with Text-Encoder Reinforcement Learning](https://arxiv.org/pdf/2311.15657) (2024, ECCV)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2311.15657)
+
++ [Rendering-Aware Reinforcement Learning for Vector Graphics Generation](https://arxiv.org/pdf/2505.20793) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20793)
+
+
+
+#### Video Generation
 
 + [DanceGRPO: Unleashing GRPO on Visual Generation](https://arxiv.org/abs/2505.07818) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07818)
   [![Star](https://img.shields.io/github/stars/XueZeyue/DanceGRPO.svg?style=social&label=Star)](https://github.com/XueZeyue/DanceGRPO)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://dancegrpo.github.io/)
 
++ [InfLVG: Reinforce Inference-Time Consistent Long Video Generation with GRPO](https://arxiv.org/abs/2505.17574) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17574)
+  [![Star](https://img.shields.io/github/stars/MAPLE-AIGC/InfLVG.svg?style=social&label=Star)](https://github.com/MAPLE-AIGC/InfLVG)
 
++ [Reasoning physical video generation with diffusion timestep tokens via reinforcement learning](https://arxiv.org/abs/2504.15932) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.15932)
+
++ [Improving Video Generation with Human Feedback](https://arxiv.org/abs/2501.13918) (Jan. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.13918)
+  [![Star](https://img.shields.io/github/stars/KwaiVGI/VideoAlign.svg?style=social&label=Star)](https://github.com/KwaiVGI/VideoAlign)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://gongyeliu.github.io/videoalign/)
+
++ [TeViR: Text-to-Video Reward with Diffusion Models for Efficient Reinforcement Learning](https://arxiv.org/abs/2505.19769) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19769)
+
++ [Aligning Anime Video Generation with Human Feedback](https://arxiv.org/abs/2504.10044) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.10044)
+  [![Star](https://img.shields.io/github/stars/bilibili/Index-anisora.svg?style=social&label=Star)](https://github.com/bilibili/Index-anisora)
+
++ [Instructvideo: Instructing video diffusion models with human feedback](https://arxiv.org/abs/2312.12490) (Dec. 2023, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.12490)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://instructvideo.github.io/)
+
++ [VideoScore: Building Automatic Metrics to Simulate Fine-grained Human Feedback for Video Generation](https://arxiv.org/abs/2406.15252) (Jun. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.15252)
+
++ [Gradeo: Towards human-like evaluation for text-to-video generation via multi-step reasoning](https://arxiv.org/abs/2503.02341) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.02341)
+
+
++ [Boosting text-to-video generative model with MLLMs feedback](https://dl.acm.org/doi/10.5555/3737916.3742342) (NIPS 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://dl.acm.org/doi/10.5555/3737916.3742342)
+
+
+
+#### 3D Generation
+
++ [DreamCS: Geometry-Aware Text-to-3D Generation with Unpaired 3D Reward Supervision](https://arxiv.org/abs/2506.09814) (Jun. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.09814)
+
++ [Dreamreward: Text-to-3d generation with human preference](https://arxiv.org/abs/2403.14613) (ECCV 2024)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2403.14613)
+  [![Star](https://img.shields.io/github/stars/liuff19/DreamReward.svg?style=social&label=Star)](https://github.com/liuff19/DreamReward)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://jamesyjl.github.io/DreamReward/)
+
++ [DreamDPO: Aligning Text-to-3D Generation with Human Preferences via Direct Preference Optimization](https://arxiv.org/abs/2502.04370) (Feb. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.04370)
+
++ [Nabla-R2D3: Effective and Efficient 3D Diffusion Alignment with 2D Rewards](https://arxiv.org/abs/2506.15684) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.15684)
+
+
+
+
+<!-- 
 + [LfVoid: Can Pre-Trained Text-to-Image Models Generate Visual Goals for Reinforcement Learning?](https://arxiv.org/abs/2307.07837) (2023, Neurips)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2307.07837)
   [![Star](https://img.shields.io/github/stars/gaojl19/LfVoid.svg?style=social&label=Star)](https://github.com/gaojl19/LfVoid)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://lfvoid-rl.github.io/)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://lfvoid-rl.github.io/) -->
 
 
 ### RL for Unified Model
