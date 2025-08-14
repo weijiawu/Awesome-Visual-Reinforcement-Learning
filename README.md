@@ -647,6 +647,9 @@ Libraries and tools
 ### Vision Language Action Models with RL
 
 #### Embodied AI/Robotics
++ [IRL-VLA: Training an Vision-Language-Action Policy via Reward World Model](https://www.arxiv.org/pdf/2508.06571) (Aug. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/pdf/2508.06571)
+  [![Star](https://img.shields.io/github/stars/IRL-VLA/IRL-VLA.svg?style=social&label=Star)](https://github.com/IRL-VLA/IRL-VLA)
 
 + [VIKI‑R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning](https://arxiv.org/pdf/2506.09049) (Jun. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.09049)
