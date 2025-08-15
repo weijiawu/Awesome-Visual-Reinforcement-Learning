@@ -619,11 +619,51 @@ Libraries and tools
 
 ### RL for Unified Model
 
+
+#### Unified RL
+
++ [UniRL: Self-Improving Unified Multimodal Models via Supervised and Reinforcement Learning](https://arxiv.org/abs/2505.23380) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23380)
+  [![Star](https://img.shields.io/github/stars/showlab/UniRL.svg?style=social&label=Star)](https://github.com/showlab/UniRL)
+
++ [Co-Reinforcement Learning for Unified Multimodal Understanding and Generation](https://arxiv.org/abs/2505.17534) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17534)
+  [![Star](https://img.shields.io/github/stars/mm-vl/ULM-R1.svg?style=social&label=Star)](https://github.com/mm-vl/ULM-R1)
+
++ [Selftok: Discrete Visual Tokens of Autoregression, by Diffusion, and for Reasoning](https://arxiv.org/abs/2505.07538) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07538)
+  [![Star](https://img.shields.io/github/stars/selftok-team/SelftokTokenizer.svg?style=social&label=Star)](https://github.com/selftok-team/SelftokTokenizer)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://selftok-team.github.io/report/)
+
++ [HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation](https://arxiv.org/abs/2502.12148) (Feb. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.12148)
+  [![Star](https://img.shields.io/github/stars/Gen-Verse/HermesFlow.svg?style=social&label=Star)](https://github.com/Gen-Verse/HermesFlow)
+
+
+
+#### Task Specific RL
+
+
++ [VARGPT-v1.1: Improve Visual Autoregressive Large Unified Model via Iterative Instruction Tuning and Reinforcement Learning](https://arxiv.org/pdf/2504.02949) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.02949)
+  [![Star](https://img.shields.io/github/stars/VARGPT-family/VARGPT-v1.1.svg?style=social&label=Star)](https://github.com/VARGPT-family/VARGPT-v1.1)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vargpt1-1.github.io/)
+
++ [Emu3: Next-token prediction is all you need](https://arxiv.org/abs/2409.18869) (Sep. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.18869)
+  [![Star](https://img.shields.io/github/stars/baaivision/Emu3.svg?style=social&label=Star)](https://github.com/baaivision/Emu3)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://emu.baai.ac.cn/)
+
++ [X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again](https://arxiv.org/pdf/2507.22058) (Jul. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2507.22058)
+  [![Star](https://img.shields.io/github/stars/X-Omni-Team/X-Omni.svg?style=social&label=Star)](https://github.com/X-Omni-Team/X-Omni)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://x-omni-team.github.io/)
+
+
 + [Unified Multimodal Chain-of-Thought Reward Model through Reinforcement Fine-Tuning](https://arxiv.org/abs/2505.03318) (Mar. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.03318)
   [![Star](https://img.shields.io/github/stars/CodeGoat24/UnifiedReward.svg?style=social&label=Star)](https://github.com/CodeGoat24/UnifiedReward)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/UnifiedReward/think)
-
 
   
 + [MMaDA: Multimodal Large Diffusion Language Models](https://arxiv.org/abs/2505.15809) (Mar. 2025, arXiv)
@@ -632,21 +672,123 @@ Libraries and tools
   [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/spaces/Gen-Verse/MMaDA)
 
 
-+ [VARGPT-v1.1: Improve Visual Autoregressive Large Unified Model via Iterative Instruction Tuning and Reinforcement Learning](https://arxiv.org/pdf/2504.02949) (Apr. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.02949)
-  [![Star](https://img.shields.io/github/stars/VARGPT-family/VARGPT-v1.1.svg?style=social&label=Star)](https://github.com/VARGPT-family/VARGPT-v1.1)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://vargpt1-1.github.io/)
-
-
-+ [Selftok: Discrete Visual Tokens of Autoregression, by Diffusion, and for Reasoning](https://arxiv.org/abs/2505.07538) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07538)
-  [![Star](https://img.shields.io/github/stars/selftok-team/SelftokTokenizer.svg?style=social&label=Star)](https://github.com/selftok-team/SelftokTokenizer)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://selftok-team.github.io/report/)
-
 
 ### Vision Language Action Models with RL
 
+#### GUI Interaction
+
++ [GUI-R1 : A Generalist R1-Style Vision-Language Action Model For GUI Agents](https://arxiv.org/abs/2504.10458) (Apr. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.10458)
+
++ [Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning](https://arxiv.org/pdf/2505.12370) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.12370)
+  [![Star](https://img.shields.io/github/stars/YXB-NKU/SE-GUI.svg?style=social&label=Star)](https://github.com/YXB-NKU/SE-GUI)
+
++ [UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/pdf/2305.15260) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2305.15260)
+  [![Star](https://img.shields.io/github/stars/lll6gg/UI-R1.svg?style=social&label=Star)](https://github.com/lll6gg/UI-R1)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://yxchai.com/UI-R1/)
+
++ [UIShift: Enhancing VLM-based GUI Agents through Self-supervised Reinforcement Learning](https://arxiv.org/abs/2505.12493) (Mar. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12493)
+  [![Star](https://img.shields.io/github/stars/UbiquitousLearning/UIShift.svg?style=social&label=Star)](https://github.com/UbiquitousLearning/UIShift)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/papers/2505.12493)
+
++ [AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning](https://arxiv.org/abs/2506.01391) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01391)
+  [![Star](https://img.shields.io/github/stars/OpenBMB/AgentCPM-GUI.svg?style=social&label=Star)](https://github.com/OpenBMB/AgentCPM-GUI)
+
++ [MobileGUI-RL: Advancing Mobile GUI Agent through Reinforcement Learning in Online Environment](https://arxiv.org/abs/2507.05720) (Jul. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.05720)
+
++ [ProgRM: Build Better GUI Agents with Progress Rewards](https://arxiv.org/abs/2505.18121) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.18121)
+
++ [Mobile-R1: Towards Interactive Reinforcement Learning for VLM-Based Mobile Agent via Task-Level Rewards](https://arxiv.org/abs/2506.20332) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.20332)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://mobile-r1.github.io/Mobile-R1/)
+
++ [GTA1: GUI Test-time Scaling Agent](https://arxiv.org/abs/2507.05791) (Jul. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.05791)
+
++ [LPO: Towards Accurate GUI Agent Interaction via Location Preference Optimization](https://arxiv.org/abs/2506.09373) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.09373)
+  [![Star](https://img.shields.io/github/stars/AIDC-AI/LPO.svg?style=social&label=Star)](https://github.com/AIDC-AI/LPO)
+
++ [Ui-tars: Pioneering automated gui interaction with native agents](https://arxiv.org/abs/2501.12326) (Jan. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.12326)
+
++ [Reinforced ui instruction grounding: Towards a generic ui task automation api](https://arxiv.org/abs/2310.04716) (Oct. 2023, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.04716)
+
++ [Appvlm: A lightweight vision language model for online app control](https://arxiv.org/abs/2502.06395) (Feb. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.06395)
+
+
+#### Visual Navigation
+
++ [OctoNav: Towards Generalist Embodied Navigation](https://arxiv.org/pdf/2506.09839) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.09839)
+  [![Star](https://img.shields.io/github/stars/buaa-colalab/OctoNav-R1.svg?style=social&label=Star)](https://github.com/buaa-colalab/OctoNav-R1)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://buaa-colalab.github.io/OctoNav/)
+
++ [More: Unlocking scalability in reinforcement learning for quadruped vision-language-action models](https://arxiv.org/abs/2503.08007) (ICRA 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.08007)
+
++ [RAPID: Robust and Agile Planner Using Inverse Reinforcement Learning for Vision-Based Drone Navigation](hhttps://arxiv.org/abs/2502.02054) (Feb. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.02054)
+
++ [VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2506.17221) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.17221)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vlnr1.github.io/)
+
++ [FLaRe: Achieving Masterful and Adaptive Robot Policies with Large-Scale Reinforcement Learning Fine-Tuning](https://arxiv.org/abs/2409.16578) (Sep. 2024, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.16578)
+  [![Star](https://img.shields.io/github/stars/JiahengHu/FLaRe.svg?style=social&label=Star)](https://github.com/JiahengHu/FLaRe)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://robot-flare.github.io/)
+
+<!-- FLaRe: Achieving Masterful and Adaptive Robot Policies with Large-Scale Reinforcement Learning Fine-Tuning -->
+
+#### Visual Manipulation
+
++ [TGRPO: Fine-tuning Vision-Language-Action Model via Trajectory-wise Group Relative Policy Optimization](https://arxiv.org/abs/2506.08440) (Jun. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.08440)
+  [![Star](https://img.shields.io/github/stars/hahans/TGRPO.svg?style=social&label=Star)](https://github.com/hahans/TGRPO)
+
+
++ [RFTF: Reinforcement Fine-tuning for Embodied Agents with Temporal Feedback](https://arxiv.org/abs/2505.19767) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19767)
+
+
++ [What Can RL Bring to VLA Generalization? An Empirical Study](https://arxiv.org/abs/2505.19789) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19789)
+  [![Star](https://img.shields.io/github/stars/gen-robot/RL4VLA.svg?style=social&label=Star)](https://github.com/gen-robot/RL4VLA)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://rlvla.github.io/)
+
+
++ [VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning](https://arxiv.org/abs/2505.18719) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.18719)
+
++ [ConRFT: A Reinforced Fine-tuning Method for VLA Models via Consistency Policy](https://arxiv.org/abs/2502.05450) (Feb. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.05450)
+  [![Star](https://img.shields.io/github/stars/cccedric/conrft.svg?style=social&label=Star)](https://github.com/cccedric/conrft)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://cccedric.github.io/conrft/)
+
++ [Improving Vision-Language-Action Model with Online Reinforcement Learning](https://arxiv.org/pdf/2501.16664) (2025, ICRA)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2501.16664)
+
++ [Interactive Post-Training for Vision-Language-Action Models](https://www.arxiv.org/abs/2505.17016) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/abs/2505.17016)
+  [![Star](https://img.shields.io/github/stars/Ariostgx/ript-vla.svg?style=social&label=Star)](https://github.com/Ariostgx/ript-vla)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://ariostgx.github.io/ript_vla/)
+
++ [ReinboT: Amplifying Robot Visual-Language Manipulation with Reinforcement Learning](https://arxiv.org/abs/2505.07395) (May. 2025, arXiv)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07395)
+
+
+
 #### Embodied AI/Robotics
+
 + [IRL-VLA: Training an Vision-Language-Action Policy via Reward World Model](https://www.arxiv.org/pdf/2508.06571) (Aug. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.arxiv.org/pdf/2508.06571)
   [![Star](https://img.shields.io/github/stars/IRL-VLA/IRL-VLA.svg?style=social&label=Star)](https://github.com/IRL-VLA/IRL-VLA)
@@ -656,19 +798,11 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/MARS-EAI/VIKI-R.svg?style=social&label=Star)](https://github.com/MARS-EAI/VIKI-R)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://faceong.github.io/VIKI-R/)
 
-+ [OctoNav: Towards Generalist Embodied Navigation](https://arxiv.org/pdf/2506.09839) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.09839)
-  [![Star](https://img.shields.io/github/stars/buaa-colalab/OctoNav-R1.svg?style=social&label=Star)](https://github.com/buaa-colalab/OctoNav-R1)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://buaa-colalab.github.io/OctoNav/)
-
 + [Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics](https://arxiv.org/abs/2506.00070) (May. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.00070)
 
 + [Embodied-R: Collaborative Framework for Activating Embodied Spatial Reasoning in Foundation Models via Reinforcement Learning](https://arxiv.org/pdf/2504.12680) (Apr. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.12680)
-
-+ [Improving Vision-Language-Action Model with Online Reinforcement Learning](https://arxiv.org/pdf/2501.16664) (2025, ICRA)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2501.16664)
 
 + [RLDG: Robotic Generalist Policy Distillation via Reinforcement Learning](https://arxiv.org/pdf/2412.09858) (Dec. 2024, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2412.09858)
@@ -700,10 +834,6 @@ Libraries and tools
   [![Website](https://img.shields.io/badge/Website-9cf)](https://vpg.cs.princeton.edu/)
 
 
-+ [VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2506.17221) (Jun. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.17221)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://vlnr1.github.io/)
-
 
 #### Visual Agents with RL
 
@@ -711,28 +841,13 @@ Libraries and tools
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19255)
   [![Star](https://img.shields.io/github/stars/VTool-R1/VTool-R1.svg?style=social&label=Star)](https://github.com/VTool-R1/VTool-R1)
 
-
 + [VIKI‑R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning](https://arxiv.org/abs/2506.09049) (June. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.09049)
   [![Star](https://img.shields.io/github/stars/MARS-EAI/VIKI-R.svg?style=social&label=Star)](https://github.com/MARS-EAI/VIKI-R)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://faceong.github.io/VIKI-R/)
 
-
-+ [Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning](https://arxiv.org/pdf/2505.12370) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.12370)
-  [![Star](https://img.shields.io/github/stars/YXB-NKU/SE-GUI.svg?style=social&label=Star)](https://github.com/YXB-NKU/SE-GUI)
-
-
-
-+ [UI-R1: Enhancing Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/pdf/2305.15260) (Mar. 2025, arXiv)
-  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2305.15260)
-  [![Star](https://img.shields.io/github/stars/lll6gg/UI-R1.svg?style=social&label=Star)](https://github.com/lll6gg/UI-R1)
-  [![Website](https://img.shields.io/badge/Website-9cf)](https://yxchai.com/UI-R1/)
-
-
 + [DigiRL: Training In‑The‑Wild Device‑Control Agents with Autonomous Reinforcement Learning](https://arxiv.org/abs/2406.11896) (Jun. 2024, NeurIPS 2024)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.11896)  
-
 
 + [ARPO: End‑to‑End Policy Optimization for GUI Agents with Experience Replay](https://arxiv.org/abs/2505.16282) (May 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.16282)
@@ -758,8 +873,8 @@ Libraries and tools
   [![Website](https://img.shields.io/badge/Website-9cf)](https://huggingface.co/mispeech/r1-aqa)
 
 
-#### RL for Medical Reasoning
 
+#### RL for Medical Reasoning
 
 + [Uncertainty-aware Diffusion and Reinforcement Learning for Joint Plane Localization and Anomaly Diagnosis in 3D Ultrasound](https://arxiv.org/abs/2506.23538) (July. 2025, arXiv)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.23538)
@@ -774,7 +889,6 @@ Libraries and tools
 
 #### Visual World Models with RL
 **Definition**: Learn predictive models of environment dynamics from visual inputs to enable planning and long-horizon reasoning in RL.
-
 
 + [Mastering Diverse Domains through World Models](https://www.nature.com/articles/s41586-025-08744-2.pdf) (2025, Nature)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://www.nature.com/articles/s41586-025-08744-2.pdf)
