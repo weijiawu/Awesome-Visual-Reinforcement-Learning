@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
   </a>
   <a href="https://github.com/weijiawu/Awesome-Visual-Reinforcement-Learning">
-    <img src="https://img.shields.io/badge/Think_With_Images-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white" alt="Github">
+    <img src="https://img.shields.io/badge/Visual_RL-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white" alt="Github">
   </a>
   <a href="https://huggingface.co/papers/2508.08189">
     <img src="https://img.shields.io/badge/HuggingFace-fcd022?style=for-the-badge&logo=huggingface&logoColor=000" alt="Hugging Face Collection">
