@@ -914,15 +914,32 @@ u
   [![Star](https://img.shields.io/github/stars/clmoro/Robotics-RL-FMs-Integration.svg?style=social&label=Star)](https://github.com/clmoro/Robotics-RL-FMs-Integration)
 
 
-#### :high_brightness: This project is still on-going, pull requests are welcomed!!
-If you have any suggestions (missing papers, new papers, or typos), please feel free to edit and submit a pull request. Even just suggesting paper titles is a great contribution — you can also open an issue or contact us via email.
+<!-- #### :high_brightness: This project is still on-going, pull requests are welcomed!!
+If you have any suggestions (missing papers, new papers, or typos), please feel free to edit and submit a pull request. Even just suggesting paper titles is a great contribution — you can also open an issue or contact us via email. -->
 
-#### :star: If you find this repo useful, please star it!!!
+<!-- #### :star: If you find this repo useful, please star it!!! -->
 
 
 ## Acknowledgements
 
 This template is provided by [Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion). And our approach builds upon numerous contributions from prior resource, such as [Awesome Visual RL](https://github.com/qiwang067/awesome-visual-rl).
+
+
+## :star: Contributing & Citation
+
+If you have any suggestions (missing papers, new papers, or typos), please feel free to edit and submit a pull request. Even just suggesting paper titles is a great contribution — you can also open an issue or contact us via email (weijiawu96@gmail.com).
+
+If you find our survey and this repository useful for your research, please consider citing our work:
+
+```bibtex
+@article{wu2025reinforcement,
+  title={Reinforcement Learning in Vision: A Survey},
+  author={Wu, Weijia and Gao, Chen and Chen, Joya and Lin, Kevin Qinghong and Meng, Qingwei and Zhang, Yiming and Qiu, Yuke and Zhou, Hong and Shou, Mike Zheng},
+  journal={arXiv preprint arXiv:2508.08189},
+  year={2025}
+}
+```
+
 
 ## Star History
 
