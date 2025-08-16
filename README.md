@@ -1,7 +1,7 @@
 # Awesome-Visual-Reinforcement-Learning
 
 <div align="center">
-  <img src="assets/logo.png" alt="Logo" width="600">
+  <img src="assets/logo.png" alt="Logo" width="450">
   <p align="center">
     This repository accompanies our survey paper: <br><a href="https://arxiv.org/abs/2508.08189"><strong>Reinforcement Learning in Vision: A Survey</strong></a>
   </p>
