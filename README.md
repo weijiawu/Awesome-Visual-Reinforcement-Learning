@@ -25,6 +25,27 @@
 
 <!-- 📖 This is a repository for organizing papers, codes and other resources related to Visual Reinforcement Learning. -->
 
+**WELCOME CONTRIBUTE!**
+
+🔥 This project is actively maintained, and we welcome your contributions. If you have any suggestions, such as missing papers or information, please feel free to open an issue or submit a pull request.
+
+🤖 Try our [Awesome-Paper-Agent](https://chatgpt.com/g/g-qqs9km6wi-awesome-paper-agent). Just provide an arXiv URL link, and it will automatically return formatted information, like this:
+
+```
+User:
+https://arxiv.org/abs/2312.13108
+
+GPT:
++ [AssistGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108) (Dec. 2023)
+
+  [![Star](https://img.shields.io/github/stars/showlab/assistgui.svg?style=social&label=Star)](https://github.com/showlab/assistgui)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.13108)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://showlab.github.io/assistgui/)
+```
+
+So then you can easily copy and use this information in your pull requests.
+
+⭐ If you find this repository useful, please give it a star.
 
 ---
 
