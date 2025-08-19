@@ -266,7 +266,7 @@ Libraries and tools
 
 
 + [GLM‑4.5V and GLM‑4.1V‑Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](https://arxiv.org/abs/2507.01006) (Jul. 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv‑2507.01006‑b31b1b.svg)](https://arxiv.org/abs/2507.01006)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.01006)
   [![Star](https://img.shields.io/github/stars/zai-org/GLM-V.svg?style=social&label=Star)](https://github.com/zai-org/GLM-V)
 
 <!-- before context is new 19-8-2025 -->
@@ -335,11 +335,11 @@ Libraries and tools
 **Definition**: Thinking with Images elevates the picture to an active, external workspace: models iteratively generate, crop, highlight, sketch or insert explicit visual annotations as tokens in their chain-of-thought, thereby aligning linguistic logic with grounded visual evidence.
 
 + [Learning Only with Images: Visual Reinforcement Learning with Reasoning, Rendering, and Visual Feedback](https://arxiv.org/abs/2507.20766) (Jul. 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv-2507.20766-b31b1b.svg)](https://arxiv.org/abs/2507.20766)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.20766)
   [![Star](https://img.shields.io/github/stars/L-O-I/RRVF.svg?style=social&label=Star)](https://github.com/L-O-I/RRVF)
 
 + [VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning](https://arxiv.org/abs/2507.13348) (Jul. 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv-2507.13348-b31b1b.svg)](https://arxiv.org/abs/2507.13348)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.13348)
   [![Star](https://img.shields.io/github/stars/dvlab-research/VisionThink.svg?style=social&label=Star)](https://github.com/dvlab-research/VisionThink)
 
 
@@ -411,7 +411,7 @@ Libraries and tools
 
 
 + [Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](https://arxiv.org/abs/2508.04416) (Aug. 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv-2508.04416-b31b1b.svg)](https://arxiv.org/abs/2508.04416)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.04416)
 
 <!-- before context is new 19-8-2025 -->
 
@@ -589,7 +589,7 @@ Libraries and tools
 #### Image Editing
 
 + [The Promise of RL for Autoregressive Image Editing](https://arxiv.org/abs/2508.01119) (Aug. 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv-2508.01119-b31b1b.svg)](https://arxiv.org/abs/2508.01119)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.01119)
   [![Star](https://img.shields.io/github/stars/mair-lab/EARL.svg?style=social&label=Star)](https://github.com/mair-lab/EARL)
 
 
@@ -725,11 +725,11 @@ Libraries and tools
 #### GUI Interaction
 
 + [UI-AGILE: Advancing GUI Agents with Effective Reinforcement Learning and Precise Inference-Time Grounding](https://arxiv.org/abs/2507.22025) (Jul. 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv-2507.22025-b31b1b.svg)](https://arxiv.org/abs/2507.22025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.22025)
   [![Star](https://img.shields.io/github/stars/KDEGroup/UI-AGILE.svg?style=social&label=Star)](https://github.com/KDEGroup/UI-AGILE)
 
 + [GuirlVG: Incentivize GUI Visual Grounding via Empirical Exploration on Reinforcement Learning](https://arxiv.org/abs/2508.04389) (Aug. 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv-2508.04389-b31b1b.svg)](https://arxiv.org/abs/2508.04389)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.04389)
 <!-- before context is new 19-8-2025 -->
 
 
@@ -829,12 +829,12 @@ Libraries and tools
 
 
 + [GenFlowRL: Shaping Rewards with Generative Object-Centric Flow in Visual Reinforcement Learning](https://arxiv.org/abs/2508.11049) (Aug. 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv-2508.11049-b31b1b.svg)](https://arxiv.org/abs/2508.11049)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.11049)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://colinyu1.github.io/genflowrl/)
 
 
 + [FastTD3: Simple, Fast, and Capable Reinforcement Learning for Humanoid Control](https://arxiv.org/abs/2505.22642) (May 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv-2505.22642-b31b1b.svg)](https://arxiv.org/abs/2505.22642)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.22642)
   [![Star](https://img.shields.io/github/stars/younggyoseo/FastTD3.svg?style=social&label=Star)](https://github.com/younggyoseo/FastTD3)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://younggyo.me/fast_td3/)
 
@@ -985,7 +985,7 @@ u
 #### Other Survey
 
 + [Deep Reinforcement Learning for Robotics: A Survey of Real-World Successes](https://arxiv.org/abs/2408.03539) (Aug. 2024)
-  [![arXiv](https://img.shields.io/badge/arXiv-2408.03539-b31b1b.svg)](https://arxiv.org/abs/2408.03539)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.03539)
 
 
 + [Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models](https://arxiv.org/pdf/2504.21277) (May. 2025)
