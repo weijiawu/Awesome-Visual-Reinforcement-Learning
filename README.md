@@ -486,6 +486,13 @@ Libraries and tools
 
 #### Image Generation
 
++ [Qwen-Image Technical Report](https://arxiv.org/pdf/2508.02324) (Aug. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.02324)
+  [![Star](https://img.shields.io/github/stars/QwenLM/Qwen-Image.svg?style=social&label=Star)](https://github.com/QwenLM/Qwen-Image)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://modelscope.cn/models/Qwen/Qwen-Image)
+
+<!-- before context is new 19-8-2025 -->
+
 + [ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation](https://arxiv.org/abs/2304.05977) (Apr. 2023)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2304.05977)
   [![Star](https://img.shields.io/github/stars/zai-org/ImageReward.svg?style=social&label=Star)](https://github.com/zai-org/ImageReward)
