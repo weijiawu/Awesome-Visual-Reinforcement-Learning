@@ -486,6 +486,11 @@ Libraries and tools
 
 #### Image Generation
 
++ [TempFlow-GRPO: When Timing Matters for GRPO in Flow Models](https://arxiv.org/pdf/2508.04324) (Aug. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.04324)
+  [![Star](https://img.shields.io/github/stars/Shredded-Pork/TempFlow-GRPO.svg?style=social&label=Star)](https://github.com/Shredded-Pork/TempFlow-GRPO)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tempflowgrpo.github.io/)
+
 + [Qwen-Image Technical Report](https://arxiv.org/pdf/2508.02324) (Aug. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.02324)
   [![Star](https://img.shields.io/github/stars/QwenLM/Qwen-Image.svg?style=social&label=Star)](https://github.com/QwenLM/Qwen-Image)
