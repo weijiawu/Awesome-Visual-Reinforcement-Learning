@@ -102,7 +102,9 @@ Libraries and tools
 #### Conventional RL-based Frameworks for MLLM
 **Definition**: We refer to conventional RL-based MLLMs as approaches that apply reinforcement learning primarily to align a vision–language backbone with verifiable, task-level rewards, without explicitly modeling multi-step chain-of-thought reasoning.
 
-
++ [LENS: Learning to Segment Anything with Unified Reinforced Reasoning](https://arxiv.org/pdf/2508.14153) (Aug. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.14153)
+  [![Star](https://img.shields.io/github/stars/hustvl/LENS.svg?style=social&label=Star)](https://github.com/hustvl/LENS)
 
 + [DocR1: Evidence Page-Guided GRPO for Multi-Page Document Understanding](https://arxiv.org/abs/2508.07313) (Aug. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-2508.07313-b31b1b.svg)](https://arxiv.org/abs/2508.07313)
