@@ -107,11 +107,12 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/hustvl/LENS.svg?style=social&label=Star)](https://github.com/hustvl/LENS)
 
 + [DocR1: Evidence Page-Guided GRPO for Multi-Page Document Understanding](https://arxiv.org/abs/2508.07313) (Aug. 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv-2508.07313-b31b1b.svg)](https://arxiv.org/abs/2508.07313)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.07313)
 
 
 + [BigCharts-R1: Enhanced Chart Reasoning with Visual Reinforcement Finetuning](https://arxiv.org/abs/2508.09804) (Aug. 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv-2508.09804-b31b1b.svg)](https://arxiv.org/abs/2508.09804)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.09804)
+
 <!-- before context is new 19-8-2025 -->
 
 
@@ -813,7 +814,7 @@ Libraries and tools
 + [More: Unlocking scalability in reinforcement learning for quadruped vision-language-action models](https://arxiv.org/abs/2503.08007) (ICRA 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.08007)
 
-+ [RAPID: Robust and Agile Planner Using Inverse Reinforcement Learning for Vision-Based Drone Navigation](hhttps://arxiv.org/abs/2502.02054) (Feb. 2025)
++ [RAPID: Robust and Agile Planner Using Inverse Reinforcement Learning for Vision-Based Drone Navigation](https://arxiv.org/abs/2502.02054) (Feb. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.02054)
 
 + [VLN-R1: Vision-Language Navigation via Reinforcement Fine-Tuning](https://arxiv.org/pdf/2506.17221) (Jun. 2025)
@@ -929,7 +930,7 @@ Libraries and tools
 #### Pretrain with RL
 
 + [Reinforcement Pre‑Training](https://arxiv.org/abs/2506.08007) (Jun. 2025)
-  [![arXiv](https://img.shields.io/badge/arXiv‑2506.08007‑b31b1b.svg)](https://arxiv.org/abs/2506.08007)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.08007)
 
 
 
