@@ -489,6 +489,13 @@ Libraries and tools
 
 #### Image Generation
 
++ [Pref-GRPO: Pairwise Preference Reward-based GRPO for Stable Text-to-Image Reinforcement Learning](https://arxiv.org/pdf/2508.20751) (Jul. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.20751)
+  [![Star](https://img.shields.io/github/stars/CodeGoat24/Pref-GRPO.svg?style=social&label=Star)](https://github.com/CodeGoat24/Pref-GRPO)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/UnifiedReward/Pref-GRPO)
+
+
+
 + [TempFlow-GRPO: When Timing Matters for GRPO in Flow Models](https://arxiv.org/pdf/2508.04324) (Aug. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.04324)
   [![Star](https://img.shields.io/github/stars/Shredded-Pork/TempFlow-GRPO.svg?style=social&label=Star)](https://github.com/Shredded-Pork/TempFlow-GRPO)
