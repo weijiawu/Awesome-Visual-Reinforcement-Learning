@@ -489,6 +489,18 @@ Libraries and tools
 
 #### Image Generation
 
+
++ [OneReward: Unified Mask-Guided Image Generation via Multi-Task Human Preference Learning](https://arxiv.org/abs/2508.21066) (Aug. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.21066)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://one-reward.github.io/)
+
+
++ [USO: Unified Style and Subject-Driven Generation via Disentangled and Reward Learning](https://arxiv.org/abs/2508.18966) (Aug. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.18966)
+  [![Star](https://img.shields.io/github/stars/bytedance/USO.svg?style=social&label=Star)](https://github.com/bytedance/USO)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://bytedance.github.io/USO/)
+
+
 + [Pref-GRPO: Pairwise Preference Reward-based GRPO for Stable Text-to-Image Reinforcement Learning](https://arxiv.org/pdf/2508.20751) (Jul. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.20751)
   [![Star](https://img.shields.io/github/stars/CodeGoat24/Pref-GRPO.svg?style=social&label=Star)](https://github.com/CodeGoat24/Pref-GRPO)
