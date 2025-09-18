@@ -7,6 +7,7 @@
   </p>
 </div>
 
+
 <div align="center">
   <a href="https://arxiv.org/abs/2508.08189">
     <img src="https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
@@ -52,11 +53,14 @@ It aims to help researchers and practitioners navigate the fast-evolving Visual 
   <img src="assets/timeline.png" alt="TAX" style="display: block; margin: 0 auto;" width="700px" />
 </p>
 
+
 We structure this collection along a trajectory of visual RL. This chart ugroups existing work by high-level domain (MLLMs, visual generation, unified models, and vision-language action agents) and then by finer-grained tasks, illustrating representative papers for each branch.:
+
 
 <p align="center">
   <img src="assets/taxonomy.png" alt="TAX" style="display: block; margin: 0 auto;" width="800px" />
 </p>
+
 
 
 ## 📚 Table of Contents <!-- omit in toc -->
@@ -101,6 +105,10 @@ Libraries and tools
 
 #### Conventional RL-based Frameworks for MLLM
 **Definition**: We refer to conventional RL-based MLLMs as approaches that apply reinforcement learning primarily to align a vision–language backbone with verifiable, task-level rewards, without explicitly modeling multi-step chain-of-thought reasoning.
+
++ [THOR: Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning](https://arxiv.org/pdf/2509.13761) (Sep. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.13761)
+  [![Star](https://img.shields.io/github/stars/JingMog/THOR.svg?style=social&label=Star)](https://github.com/JingMog/THOR)
 
 + [LENS: Learning to Segment Anything with Unified Reinforced Reasoning](https://arxiv.org/pdf/2508.14153) (Aug. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.14153)
@@ -491,6 +499,11 @@ Libraries and tools
 
 #### Image Generation
 
++ [UMO: Scaling Multi-Identity Consistency for Image Customization via Matching Reward](https://arxiv.org/abs/2509.06818) (Sep. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.06818)
+  [![Star](https://img.shields.io/github/stars/bytedance/UMO.svg?style=social&label=Star)](https://github.com/bytedance/UMO)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://bytedance.github.io/UMO/)
+
 
 + [OneReward: Unified Mask-Guided Image Generation via Multi-Task Human Preference Learning](https://arxiv.org/abs/2508.21066) (Aug. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.21066)
@@ -507,7 +520,6 @@ Libraries and tools
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2508.20751)
   [![Star](https://img.shields.io/github/stars/CodeGoat24/Pref-GRPO.svg?style=social&label=Star)](https://github.com/CodeGoat24/Pref-GRPO)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/UnifiedReward/Pref-GRPO)
-
 
 
 + [TempFlow-GRPO: When Timing Matters for GRPO in Flow Models](https://arxiv.org/pdf/2508.04324) (Aug. 2025)
@@ -633,6 +645,12 @@ Libraries and tools
 
 
 #### Video Generation
+
++ [RewardDance: Reward Scaling in Visual Generation](https://arxiv.org/abs/2509.08826) (Sep. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.08826)
+
+<!-- before context is new 19-8-2025 -->
+
 
 + [DanceGRPO: Unleashing GRPO on Visual Generation](https://arxiv.org/abs/2505.07818) (Jun. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07818)
@@ -760,9 +778,10 @@ Libraries and tools
 
 #### GUI Interaction
 
+
+
 + [UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2509.02544) (Sep. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.02544)
-
 
 + [UI-AGILE: Advancing GUI Agents with Effective Reinforcement Learning and Precise Inference-Time Grounding](https://arxiv.org/abs/2507.22025) (Jul. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.22025)
@@ -770,6 +789,7 @@ Libraries and tools
 
 + [GuirlVG: Incentivize GUI Visual Grounding via Empirical Exploration on Reinforcement Learning](https://arxiv.org/abs/2508.04389) (Aug. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.04389)
+
 <!-- before context is new 19-8-2025 -->
 
 
@@ -866,6 +886,11 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/allenai/procthor-rl.svg?style=social&label=Star)](https://github.com/allenai/procthor-rl)
 
 #### Visual Manipulation
+
+
++ [SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning](https://arxiv.org/pdf/2509.09674) (Sep. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.09674)
+  [![Star](https://img.shields.io/github/stars/PRIME-RL/SimpleVLA-RL.svg?style=social&label=Star)](https://github.com/PRIME-RL/SimpleVLA-RL)
 
 
 + [GenFlowRL: Shaping Rewards with Generative Object-Centric Flow in Visual Reinforcement Learning](https://arxiv.org/abs/2508.11049) (Aug. 2025)
