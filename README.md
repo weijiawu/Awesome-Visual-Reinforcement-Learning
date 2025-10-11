@@ -648,6 +648,11 @@ Libraries and tools
 
 #### Image Editing
 
++ [EditScore: Unlocking Online RL for Image Editing via High-Fidelity Reward Modeling](https://arxiv.org/pdf/2509.23909) (Sep. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.23909)
+  [![Star](https://img.shields.io/github/stars/VectorSpaceLab/EditScore.svg?style=social&label=Star)](https://github.com/VectorSpaceLab/EditScore)
+
+
 + [The Promise of RL for Autoregressive Image Editing](https://arxiv.org/abs/2508.01119) (Aug. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.01119)
   [![Star](https://img.shields.io/github/stars/mair-lab/EARL.svg?style=social&label=Star)](https://github.com/mair-lab/EARL)
@@ -863,6 +868,7 @@ Libraries and tools
 
 #### Visual Navigation
 
+
 + [OctoNav: Towards Generalist Embodied Navigation](https://arxiv.org/pdf/2506.09839) (Jun. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.09839)
   [![Star](https://img.shields.io/github/stars/buaa-colalab/OctoNav-R1.svg?style=social&label=Star)](https://github.com/buaa-colalab/OctoNav-R1)
@@ -898,6 +904,23 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/allenai/procthor-rl.svg?style=social&label=Star)](https://github.com/allenai/procthor-rl)
 
 #### Visual Manipulation
+
++ [VLA-RFT: Vision-Language-Action Reinforcement Fine-Tuning with Verified Rewards in World Simulators](https://arxiv.org/abs/2510.00406) (Oct. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.00406)
+  [![Star](https://img.shields.io/github/stars/OpenHelix-Team/VLA-RFT.svg?style=social&label=Star)](https://github.com/OpenHelix-Team/VLA-RFT)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vla-rft.github.io/)
+
+
++ [RLinf-VLA: A Unified and Efficient Framework for VLA+RL Training](https://arxiv.org/abs/2510.06710) (Oct. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.06710)
+  [![Star](https://img.shields.io/github/stars/RLinf/RLinf.svg?style=social&label=Star)](https://github.com/RLinf/RLinf)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://rlinf.readthedocs.io/en/latest/rst_source/start/vla.html)
+
+
++ [VLA-RFT: Vision-Language-Action Reinforcement Fine-Tuning with Verified Rewards in World Simulators](https://arxiv.org/pdf/2510.00406) (Oct. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.00406)
+  [![Star](https://img.shields.io/github/stars/OpenHelix-Team/VLA-Adapter.svg?style=social&label=Star)](https://github.com/OpenHelix-Team/VLA-Adapter)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://vla-adapter.github.io/)
 
 
 + [SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning](https://arxiv.org/pdf/2509.09674) (Sep. 2025)
