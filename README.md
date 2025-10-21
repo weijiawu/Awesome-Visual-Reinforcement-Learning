@@ -106,6 +106,10 @@ Libraries and tools
 #### Conventional RL-based Frameworks for MLLM
 **Definition**: We refer to conventional RL-based MLLMs as approaches that apply reinforcement learning primarily to align a vision–language backbone with verifiable, task-level rewards, without explicitly modeling multi-step chain-of-thought reasoning.
 
++ [RL makes MLLMs see better than SFT](https://arxiv.org/abs/2510.16333) (Oct. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.16333)
+  
+
 + [CapRL: Stimulating Dense Image Caption Capabilities via Reinforcement Learning](https://arxiv.org/pdf/2509.22647) (Sep. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.22647)
   [![Star](https://img.shields.io/github/stars/InternLM/CapRL.svg?style=social&label=Star)](https://github.com/InternLM/CapRL)
