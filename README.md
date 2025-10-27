@@ -515,6 +515,9 @@ Libraries and tools
 
 #### Image Generation
 
++ [Sample By Step, Optimize By Chunk: Chunk-Level GRPO For Text-to-Image Generation](https://arxiv.org/pdf/2510.21583) (Oct. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.21583)
+
 + [UMO: Scaling Multi-Identity Consistency for Image Customization via Matching Reward](https://arxiv.org/abs/2509.06818) (Sep. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.06818)
   [![Star](https://img.shields.io/github/stars/bytedance/UMO.svg?style=social&label=Star)](https://github.com/bytedance/UMO)
