@@ -515,6 +515,12 @@ Libraries and tools
 
 #### Image Generation
 
++ [MIRO: MultI-Reward cOnditioned pretraining improves T2I quality and efficiency](https://arxiv.org/abs/2510.25897) (Oct. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.25897)
+  [![Star](https://img.shields.io/github/stars/nicolas-dufour/miro.svg?style=social&label=Star)](https://github.com/nicolas-dufour/miro)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://nicolas-dufour.github.io/miro/)
+
+
 + [Sample By Step, Optimize By Chunk: Chunk-Level GRPO For Text-to-Image Generation](https://arxiv.org/pdf/2510.21583) (Oct. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2510.21583)
 
@@ -669,6 +675,11 @@ Libraries and tools
 
 
 #### Video Generation
+
++ [Reg-DPO: SFT-Regularized Direct Preference Optimization with GT-Pair for Improving Video Generation](https://arxiv.org/abs/2511.01450) (Nov. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2511.01450)
+  [![Star](https://img.shields.io/github/stars/JieDuTQS/Reg-DPO.svg?style=social&label=Star)](https://github.com/JieDuTQS/Reg-DPO)
+
 
 + [RewardDance: Reward Scaling in Visual Generation](https://arxiv.org/abs/2509.08826) (Sep. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.08826)
@@ -911,6 +922,12 @@ Libraries and tools
   [![Star](https://img.shields.io/github/stars/allenai/procthor-rl.svg?style=social&label=Star)](https://github.com/allenai/procthor-rl)
 
 #### Visual Manipulation
+
++ [π_RL: Online RL Fine-tuning for Flow-based Vision-Language-Action Models](https://arxiv.org/abs/2510.25889) (Oct. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.25889)
+  [![Star](https://img.shields.io/github/stars/RLinf/RLinf.svg?style=social&label=Star)](https://github.com/RLinf/RLinf)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://rlinf.readthedocs.io/en/latest/rst_source/examples/pi0.html)
+
 
 + [VLA-RFT: Vision-Language-Action Reinforcement Fine-Tuning with Verified Rewards in World Simulators](https://arxiv.org/abs/2510.00406) (Oct. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.00406)
