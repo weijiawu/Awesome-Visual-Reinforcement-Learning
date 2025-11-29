@@ -676,6 +676,11 @@ Libraries and tools
 
 #### Video Generation
 
++ [Video Generation Models Are Good Latent Reward Models](https://arxiv.org/pdf/2511.21541) (Nov. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.21541)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://kululumi.github.io/PRFL/#)
+
+
 + [Reg-DPO: SFT-Regularized Direct Preference Optimization with GT-Pair for Improving Video Generation](https://arxiv.org/abs/2511.01450) (Nov. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2511.01450)
   [![Star](https://img.shields.io/github/stars/JieDuTQS/Reg-DPO.svg?style=social&label=Star)](https://github.com/JieDuTQS/Reg-DPO)
