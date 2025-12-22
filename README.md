@@ -31,7 +31,7 @@
 
 
 ## 🔔 News
--   **[2025-08-13]** We have released ["Reinforcement Learning in Vision: A Survey"](https://arxiv.org/abs/2508.08189), the **first comprehensive survey** dedicated to the emerging paradigm of "Visual RL". 
+-   **[2025-08-13]** We have released ["Reinforcement Learning for Large Model: A Survey"](https://arxiv.org/abs/2508.08189), the **first comprehensive survey** dedicated to the emerging paradigm of "RL for Large Model". 
 -   **[2025-08-13]** We reorganized the repository and aligned the classifications in the survey. 
 -   **[2025-06-08]** We created this repository to maintain a paper list on Awesome-Visual-Reinforcement-Learning. **<span style="color:red">Everyone is welcome to push and update related work!</span>**
 
@@ -763,6 +763,13 @@ Libraries and tools
 
 #### Unified RL
 
++ [Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image](https://arxiv.org/abs/2512.16899) (Dec. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2512.16899)
+  [![Star](https://img.shields.io/github/stars/facebookresearch/MMRB2.svg?style=social&label=Star)](https://github.com/facebookresearch/MMRB2)
+
+
+
+<!-- before context is new 19-8-2025 -->
 + [UniRL: Self-Improving Unified Multimodal Models via Supervised and Reinforcement Learning](https://arxiv.org/abs/2505.23380) (Mar. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23380)
   [![Star](https://img.shields.io/github/stars/showlab/UniRL.svg?style=social&label=Star)](https://github.com/showlab/UniRL)
