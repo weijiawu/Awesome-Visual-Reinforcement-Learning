@@ -109,6 +109,7 @@ Libraries and tools
 + [RL makes MLLMs see better than SFT](https://arxiv.org/abs/2510.16333) (Oct. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.16333)
   
+  <!-- before context is new 23-12-2025 -->
 
 + [CapRL: Stimulating Dense Image Caption Capabilities via Reinforcement Learning](https://arxiv.org/pdf/2509.22647) (Sep. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.22647)
@@ -130,8 +131,8 @@ Libraries and tools
 + [BigCharts-R1: Enhanced Chart Reasoning with Visual Reinforcement Finetuning](https://arxiv.org/abs/2508.09804) (Aug. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.09804)
 
-<!-- before context is new 19-8-2025 -->
 
+<!-- before context is new 19-8-2025 -->
 
 + [RePIC: Reinforced Post-Training for Personalizing Multi-Modal Language Models](https://arxiv.org/abs/2506.18369) (Jun. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.18369)
@@ -354,6 +355,9 @@ Libraries and tools
 ##### Think with Image
 **Definition**: Thinking with Images elevates the picture to an active, external workspace: models iteratively generate, crop, highlight, sketch or insert explicit visual annotations as tokens in their chain-of-thought, thereby aligning linguistic logic with grounded visual evidence.
 
+  <!-- before context is new 23-12-2025 -->
+
+
 + [Learning Only with Images: Visual Reinforcement Learning with Reasoning, Rendering, and Visual Feedback](https://arxiv.org/abs/2507.20766) (Jul. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.20766)
   [![Star](https://img.shields.io/github/stars/L-O-I/RRVF.svg?style=social&label=Star)](https://github.com/L-O-I/RRVF)
@@ -428,6 +432,8 @@ Libraries and tools
 
 
 #### Video Reasoning with RL for MLLMs
+
+  <!-- before context is new 23-12-2025 -->
 
 + [MOSS-ChatV: Reinforcement Learning with Process Reasoning Reward for Video Temporal Reasoning](https://arxiv.org/abs/2509.21113) (Sep. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.21113)
@@ -515,6 +521,8 @@ Libraries and tools
 
 #### Image Generation
 
+  <!-- before context is new 23-12-2025 -->
+  
 + [MIRO: MultI-Reward cOnditioned pretraining improves T2I quality and efficiency](https://arxiv.org/abs/2510.25897) (Oct. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.25897)
   [![Star](https://img.shields.io/github/stars/nicolas-dufour/miro.svg?style=social&label=Star)](https://github.com/nicolas-dufour/miro)
