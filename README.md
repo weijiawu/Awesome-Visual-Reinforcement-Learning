@@ -521,6 +521,11 @@ Libraries and tools
 
 #### Image Generation
 
++ [VAR RL Done Right: Tackling Asynchronous Policy Conflicts in Visual Autoregressive Generation](https://arxiv.org/abs/2601.02256) (Jan. 2026)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2601.02256)
+  [![Star](https://img.shields.io/github/stars/ByteVisionLab/NextFlow.svg?style=social&label=Star)](https://github.com/ByteVisionLab/NextFlow)
+
+
   <!-- before context is new 23-12-2025 -->
   
 + [MIRO: MultI-Reward cOnditioned pretraining improves T2I quality and efficiency](https://arxiv.org/abs/2510.25897) (Oct. 2025)
@@ -669,6 +674,14 @@ Libraries and tools
 
 #### Image Editing
 
++ [Talk2Move: Reinforcement Learning for Text-Instructed Object-Level Geometric Transformation in Scenes](https://arxiv.org/abs/2601.02356) (Jan. 2026)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2601.02356)
+  [![Star](https://img.shields.io/github/stars/sparkstj/Talk2Move.svg?style=social&label=Star)](https://github.com/sparkstj/Talk2Move)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://sparkstj.github.io/talk2move/)
+
+  <!-- before context is new 23-12-2025 -->
+
+
 + [EditScore: Unlocking Online RL for Image Editing via High-Fidelity Reward Modeling](https://arxiv.org/pdf/2509.23909) (Sep. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2509.23909)
   [![Star](https://img.shields.io/github/stars/VectorSpaceLab/EditScore.svg?style=social&label=Star)](https://github.com/VectorSpaceLab/EditScore)
@@ -683,6 +696,10 @@ Libraries and tools
 
 
 #### Video Generation
++ [PhyGDPO: Physics-Aware Groupwise Direct Preference Optimization for Physically Consistent Text-to-Video Generation](https://arxiv.org/abs/2512.24551) (Nov. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.21541)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://caiyuanhao1998.github.io/project/PhyGDPO/)
+  [![Star](https://img.shields.io/github/stars/caiyuanhao1998/Open-PhyGDPO.svg?style=social&label=Star)](https://github.com/caiyuanhao1998/Open-PhyGDPO)
 
 + [Video Generation Models Are Good Latent Reward Models](https://arxiv.org/pdf/2511.21541) (Nov. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.21541)
