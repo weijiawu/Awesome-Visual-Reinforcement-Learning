@@ -106,6 +106,13 @@ Libraries and tools
 #### Conventional RL-based Frameworks for MLLM
 **Definition**: We refer to conventional RL-based MLLMs as approaches that apply reinforcement learning primarily to align a vision–language backbone with verifiable, task-level rewards, without explicitly modeling multi-step chain-of-thought reasoning.
 
+
++ [GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization](https://arxiv.org/pdf/2601.05242) (Jan. 2026)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2601.05242)
+  [![Star](https://img.shields.io/github/stars/NVlabs/GDPO.svg?style=social&label=Star)](https://github.com/NVlabs/GDPO)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://nvlabs.github.io/GDPO/)
+
+
 + [RL makes MLLMs see better than SFT](https://arxiv.org/abs/2510.16333) (Oct. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.16333)
   
@@ -520,6 +527,12 @@ Libraries and tools
 
 
 #### Image Generation
+
++ [GARDO: Reinforcing Diffusion Models without Reward Hacking](https://arxiv.org/pdf/2512.24138) (Dec. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2512.24138)
+  [![Star](https://img.shields.io/github/stars/tinnerhrhe/GARDO.svg?style=social&label=Star)](https://github.com/tinnerhrhe/GARDO)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://tinnerhrhe.github.io/gardo_project/)
+
 
 + [VAR RL Done Right: Tackling Asynchronous Policy Conflicts in Visual Autoregressive Generation](https://arxiv.org/abs/2601.02256) (Jan. 2026)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2601.02256)
