@@ -709,6 +709,12 @@ Libraries and tools
 
 
 #### Video Generation
+
++ [PhysRVG: Physics-Aware Unified Reinforcement Learning for Video Generative Models](https://arxiv.org/pdf/2601.11087) (Jan. 2026)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2601.11087)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://lucaria-academy.github.io/PhysRVG/)
+
+
 + [PhyGDPO: Physics-Aware Groupwise Direct Preference Optimization for Physically Consistent Text-to-Video Generation](https://arxiv.org/abs/2512.24551) (Nov. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2511.21541)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://caiyuanhao1998.github.io/project/PhyGDPO/)
