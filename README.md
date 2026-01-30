@@ -1,9 +1,10 @@
-# Awesome-Visual-Reinforcement-Learning
+# Awesome-RL-for-Multimodal-Foundation-Models
+
 
 <div align="center">
   <img src="assets/logo.png" alt="Logo" width="450">
   <p align="center">
-    This repository accompanies our survey paper: <br><a href="https://arxiv.org/abs/2508.08189"><strong>Reinforcement Learning in Vision: A Survey</strong></a>
+    This repository accompanies our survey paper: <br><a href="https://arxiv.org/abs/2508.08189"><strong>Reinforcement Learning for Multimodal Foundation Models: A Survey</strong></a>
   </p>
 </div>
 
@@ -12,7 +13,7 @@
   <a href="https://arxiv.org/abs/2508.08189">
     <img src="https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
   </a>
-  <a href="https://github.com/weijiawu/Awesome-Visual-Reinforcement-Learning">
+  <a href="https://github.com/weijiawu/Awesome-RL-for-Multimodal-Foundation-Models">
     <img src="https://img.shields.io/badge/Visual_RL-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white" alt="Github">
   </a>
   <a href="https://huggingface.co/papers/2508.08189">
@@ -31,6 +32,7 @@
 
 
 ## 🔔 News
+-   **[2026-01-28]** To better define the scope of the claim, we have renamed the title to "Reinforcement Learning for Multimodal Foundation Models: A Survey".
 -   **[2025-08-13]** We have released ["Reinforcement Learning for Large Model: A Survey"](https://arxiv.org/abs/2508.08189), the **first comprehensive survey** dedicated to the emerging paradigm of "RL for Large Model". 
 -   **[2025-08-13]** We reorganized the repository and aligned the classifications in the survey. 
 -   **[2025-06-08]** We created this repository to maintain a paper list on Awesome-Visual-Reinforcement-Learning. **<span style="color:red">Everyone is welcome to push and update related work!</span>**
@@ -39,9 +41,9 @@
 ---
 
 
-#### :thinking: What is Visual Reinforcement Learning?
+#### :thinking: What is Reinforcement Learning of Multimodal Foundation Models?
 
-**Visual Reinforcement Learning (Visual RL)** enables agents to learn decision-making policies directly from visual observations (e.g., images or videos), rather than structured state inputs.
+**Reinforcement Learning for Multimodal Foundation Models** enables agents to learn decision-making policies directly from visual observations (e.g., images or videos), rather than structured state inputs.
 It lies at the intersection of reinforcement learning and computer vision, with applications in robotics, embodied AI, games, and interactive environments.
 
 #### 📌 Project Description
