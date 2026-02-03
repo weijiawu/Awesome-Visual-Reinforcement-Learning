@@ -530,6 +530,10 @@ Libraries and tools
 
 #### Image Generation
 
++ [DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment](https://arxiv.org/abs/2601.20218) (Jan. 2026)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2601.20218)
+
+
 + [GARDO: Reinforcing Diffusion Models without Reward Hacking](https://arxiv.org/pdf/2512.24138) (Dec. 2025)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2512.24138)
   [![Star](https://img.shields.io/github/stars/tinnerhrhe/GARDO.svg?style=social&label=Star)](https://github.com/tinnerhrhe/GARDO)
@@ -870,7 +874,6 @@ Libraries and tools
 ### Vision Language Action Models with RL
 
 #### GUI Interaction
-
 
 
 + [UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2509.02544) (Sep. 2025)
