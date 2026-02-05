@@ -530,6 +530,12 @@ Libraries and tools
 
 #### Image Generation
 
++ [Unified Personalized Reward Model for Vision Generation](https://arxiv.org/pdf/2602.02380) (Feb. 2026)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2602.02380)
+  [![Star](https://img.shields.io/github/stars/UnifiedReward/flex.svg?style=social&label=Star)](https://codegoat24.github.io/UnifiedReward/flex)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://codegoat24.github.io/UnifiedReward/flex)
+
+
 + [DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment](https://arxiv.org/abs/2601.20218) (Jan. 2026)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2601.20218)
 
