@@ -722,6 +722,12 @@ Libraries and tools
 
 #### Video Generation
 
++ [WorldCompass: Reinforcement Learning for Long-Horizon World Models](https://arxiv.org/abs/2602.09022) (Nov. 2025)
+  [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2602.09022)
+  [![Website](https://img.shields.io/badge/Website-9cf)](https://3d-models.hunyuan.tencent.com/world/)
+  [![Star](https://img.shields.io/github/stars/Tencent-Hunyuan/HY-WorldPlay.svg?style=social&label=Star)](https://github.com/Tencent-Hunyuan/HY-WorldPlay)
+
+
 + [PhysRVG: Physics-Aware Unified Reinforcement Learning for Video Generative Models](https://arxiv.org/pdf/2601.11087) (Jan. 2026)
   [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/pdf/2601.11087)
   [![Website](https://img.shields.io/badge/Website-9cf)](https://lucaria-academy.github.io/PhysRVG/)
